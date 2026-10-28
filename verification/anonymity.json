@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checked_files": 271,
+  "checkpoint_metadata_checked": 39,
+  "pseudonymous_csv_rows_verified": 93980,
+  "high_confidence_credential_findings": 0,
+  "issues": [],
+  "scope": "All packaged filenames, English text, CSV pseudonyms, array strings and safe-loaded checkpoint metadata; required external citations and licenses are retained. Publishing-account identity is outside this audit."
+}

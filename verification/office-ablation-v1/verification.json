@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "cases": 6,
+  "mismatches": {
+    "baseline_exact": [],
+    "baseline_mask": [],
+    "prior_only": [],
+    "semantic_only": [],
+    "full": [],
+    "full_exact": []
+  },
+  "identical_item_lists": {
+    "baseline_exact": true,
+    "baseline_mask": true,
+    "prior_only": true,
+    "semantic_only": true,
+    "full": true,
+    "full_exact": true
+  }
+}

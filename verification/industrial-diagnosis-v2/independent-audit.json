@@ -1,0 +1,52 @@
+{
+  "source_hashes_unchanged": true,
+  "all7_radii_equal_same_beam_subset_unions_every_query": true,
+  "neighborhood_survival_monotone": true,
+  "final_neighborhood_survival_equals_radius3": true,
+  "final_exact_survival_equals_radius0": true,
+  "generation_equals_unmodified_beam_search_first_batch_both_splits": true,
+  "independent_boolean_subset_checks": [
+    {
+      "split": "valid",
+      "query": 0,
+      "all64_patterns_verified": true
+    },
+    {
+      "split": "valid",
+      "query": 1,
+      "all64_patterns_verified": true
+    },
+    {
+      "split": "valid",
+      "query": 123,
+      "all64_patterns_verified": true
+    },
+    {
+      "split": "valid",
+      "query": 4531,
+      "all64_patterns_verified": true
+    },
+    {
+      "split": "test",
+      "query": 0,
+      "all64_patterns_verified": true
+    },
+    {
+      "split": "test",
+      "query": 1,
+      "all64_patterns_verified": true
+    },
+    {
+      "split": "test",
+      "query": 123,
+      "all64_patterns_verified": true
+    },
+    {
+      "split": "test",
+      "query": 4532,
+      "all64_patterns_verified": true
+    }
+  ],
+  "cross_beam_stitching_counterexample_verified": true,
+  "fixed_mask_selection_valid_only": true
+}

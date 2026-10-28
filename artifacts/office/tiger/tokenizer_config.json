@@ -1,0 +1,23 @@
+{
+  "in_dim": 2560,
+  "num_emb_list": [
+    256,
+    256,
+    256
+  ],
+  "e_dim": 32,
+  "layers": [
+    512,
+    256,
+    128
+  ],
+  "beta": 0.25,
+  "kmeans_init": true,
+  "kmeans_iters": 100,
+  "sk_epsilons": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sk_iters": 50
+}

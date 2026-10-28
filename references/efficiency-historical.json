@@ -1,0 +1,632 @@
+{
+  "complete": true,
+  "finished_tasks": 84,
+  "total_tasks": 84,
+  "results": {
+    "industrial": {
+      "ours": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 7.662827677083345,
+          "p50_batch_ms": 7.5622085000000006,
+          "p95_batch_ms": 8.383420800000009,
+          "throughput_queries_per_second": 130.5001289524788,
+          "throughput_round_mean": 130.66057492106748,
+          "throughput_round_std": 4.528387051433608,
+          "generation_ms_per_query_including_semantics": 6.398514062500009,
+          "retrieval_sort_ms_per_query": 1.2643136145833351,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 272.328125,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 4.01033506770833,
+          "p50_batch_ms": 64.4813125,
+          "p95_batch_ms": 65.21525609999988,
+          "throughput_queries_per_second": 249.35572293001468,
+          "throughput_round_mean": 249.3631544020612,
+          "throughput_round_std": 1.3614069466040637,
+          "generation_ms_per_query_including_semantics": 2.7801918385416644,
+          "retrieval_sort_ms_per_query": 1.2301432291666654,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 298.828125,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "rqvae": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 15.360233526041675,
+          "p50_batch_ms": 15.219375500000076,
+          "p95_batch_ms": 17.11616075,
+          "throughput_queries_per_second": 65.10317686932326,
+          "throughput_round_mean": 65.15322454773592,
+          "throughput_round_std": 1.7903862961451253,
+          "generation_ms_per_query_including_semantics": 14.352340468750008,
+          "retrieval_sort_ms_per_query": 1.0078930572916671,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 318.5,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 14.53816603125,
+          "p50_batch_ms": 232.46602150000007,
+          "p95_batch_ms": 239.7154875,
+          "throughput_queries_per_second": 68.784466888773,
+          "throughput_round_mean": 68.78732400569187,
+          "throughput_round_std": 0.44431517659731345,
+          "generation_ms_per_query_including_semantics": 13.650170364583337,
+          "retrieval_sort_ms_per_query": 0.8879956666666642,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 568.171875,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "tiger": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 21.819109187499976,
+          "p50_batch_ms": 21.74720799999985,
+          "p95_batch_ms": 22.90679580000021,
+          "throughput_queries_per_second": 45.83138529655891,
+          "throughput_round_mean": 45.83559951175002,
+          "throughput_round_std": 0.4401305179144144,
+          "generation_ms_per_query_including_semantics": 20.81333489062499,
+          "retrieval_sort_ms_per_query": 1.0057742968749863,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 340.15625,
+          "all_archived_item_lists_match": false,
+          "mismatched_query_observations": 3
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 22.92185330729167,
+          "p50_batch_ms": 364.9054374999996,
+          "p95_batch_ms": 379.6183045000001,
+          "throughput_queries_per_second": 43.626489821479225,
+          "throughput_round_mean": 43.631715933468286,
+          "throughput_round_std": 0.4765801937368964,
+          "generation_ms_per_query_including_semantics": 22.04102148958333,
+          "retrieval_sort_ms_per_query": 0.8808318177083372,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 648.90625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "onerec": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 15.296709630208335,
+          "p50_batch_ms": 15.085062499999857,
+          "p95_batch_ms": 16.518152050000044,
+          "throughput_queries_per_second": 65.373536150884,
+          "throughput_round_mean": 65.44506678252422,
+          "throughput_round_std": 2.139849583964598,
+          "generation_ms_per_query_including_semantics": 14.294987619791664,
+          "retrieval_sort_ms_per_query": 1.0017220104166722,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 327.296875,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 15.14828320833333,
+          "p50_batch_ms": 239.71937500000018,
+          "p95_batch_ms": 259.4638477,
+          "throughput_queries_per_second": 66.01408134816775,
+          "throughput_round_mean": 66.09236312881846,
+          "throughput_round_std": 2.247284972355005,
+          "generation_ms_per_query_including_semantics": 14.262258901041667,
+          "retrieval_sort_ms_per_query": 0.8860243072916635,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 603.890625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "crab": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 22.01311264062499,
+          "p50_batch_ms": 21.786208500000015,
+          "p95_batch_ms": 23.93391249999983,
+          "throughput_queries_per_second": 45.427469359989985,
+          "throughput_round_mean": 45.473061572437466,
+          "throughput_round_std": 1.4278439174960704,
+          "generation_ms_per_query_including_semantics": 20.984672958333334,
+          "retrieval_sort_ms_per_query": 1.028439682291655,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 339.0,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 22.753009317708337,
+          "p50_batch_ms": 362.75964550000015,
+          "p95_batch_ms": 376.3649231000002,
+          "throughput_queries_per_second": 43.95023032059827,
+          "throughput_round_mean": 43.95965532189155,
+          "throughput_round_std": 0.6437954150066242,
+          "generation_ms_per_query_including_semantics": 21.864768,
+          "retrieval_sort_ms_per_query": 0.8882413177083345,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 639.0625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "ghost": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 61.375491505208316,
+          "p50_batch_ms": 60.88293700000014,
+          "p95_batch_ms": 65.70930595000047,
+          "throughput_queries_per_second": 16.29314854309786,
+          "throughput_round_mean": 16.295485675174508,
+          "throughput_round_std": 0.19464218892566532,
+          "generation_ms_per_query_including_semantics": 61.195494322916744,
+          "retrieval_sort_ms_per_query": 0.1799971822916089,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 428.9375,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 64.54008940104168,
+          "p50_batch_ms": 1030.2450625000006,
+          "p95_batch_ms": 1098.7256668500006,
+          "throughput_queries_per_second": 15.494245658479981,
+          "throughput_round_mean": 15.507737706233629,
+          "throughput_round_std": 0.46161927274806575,
+          "generation_ms_per_query_including_semantics": 64.40919769270835,
+          "retrieval_sort_ms_per_query": 0.13089170833333977,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 875.65625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "sa2crq": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 28.520556677083324,
+          "p50_batch_ms": 28.430666500000036,
+          "p95_batch_ms": 30.110589250000164,
+          "throughput_queries_per_second": 35.062429226829025,
+          "throughput_round_mean": 35.07320496533376,
+          "throughput_round_std": 0.6109787963675515,
+          "generation_ms_per_query_including_semantics": 28.364461182291677,
+          "retrieval_sort_ms_per_query": 0.15609549479164245,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 339.890625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 28.877207046874997,
+          "p50_batch_ms": 459.703771,
+          "p95_batch_ms": 474.26941059999973,
+          "throughput_queries_per_second": 34.629387751272056,
+          "throughput_round_mean": 34.63522964145022,
+          "throughput_round_std": 0.4501996472407132,
+          "generation_ms_per_query_including_semantics": 28.765873265625,
+          "retrieval_sort_ms_per_query": 0.11133378124999575,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 612.90625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      }
+    },
+    "office": {
+      "ours": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 7.36016706770834,
+          "p50_batch_ms": 7.280666500000033,
+          "p95_batch_ms": 7.844804349999956,
+          "throughput_queries_per_second": 135.86648112749427,
+          "throughput_round_mean": 135.97734232180804,
+          "throughput_round_std": 3.862790238939327,
+          "generation_ms_per_query_including_semantics": 6.217643411458337,
+          "retrieval_sort_ms_per_query": 1.1425236562500027,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 279.9375,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 3.8566221770833335,
+          "p50_batch_ms": 61.149104499999886,
+          "p95_batch_ms": 63.992274700000046,
+          "throughput_queries_per_second": 259.2942616837501,
+          "throughput_round_mean": 259.4407215077403,
+          "throughput_round_std": 6.129922388328156,
+          "generation_ms_per_query_including_semantics": 2.721026041666668,
+          "retrieval_sort_ms_per_query": 1.1355961354166655,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 324.5625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "rqvae": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 15.551457010416668,
+          "p50_batch_ms": 15.439249499999752,
+          "p95_batch_ms": 16.817804649999978,
+          "throughput_queries_per_second": 64.30265661475839,
+          "throughput_round_mean": 64.34120233791764,
+          "throughput_round_std": 1.5817320882967913,
+          "generation_ms_per_query_including_semantics": 14.530752567708332,
+          "retrieval_sort_ms_per_query": 1.0207044427083372,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 321.0,
+          "all_archived_item_lists_match": false,
+          "mismatched_query_observations": 6
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 14.588859161458336,
+          "p50_batch_ms": 232.16256300000015,
+          "p95_batch_ms": 242.38707919999985,
+          "throughput_queries_per_second": 68.54545574350708,
+          "throughput_round_mean": 68.56195808582142,
+          "throughput_round_std": 1.0640959138574901,
+          "generation_ms_per_query_including_semantics": 13.694289500000004,
+          "retrieval_sort_ms_per_query": 0.8945696614583327,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 561.59375,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "tiger": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 22.486446411458324,
+          "p50_batch_ms": 22.343353999999984,
+          "p95_batch_ms": 23.980762499999848,
+          "throughput_queries_per_second": 44.47123310201803,
+          "throughput_round_mean": 44.47837474148836,
+          "throughput_round_std": 0.5624407264075838,
+          "generation_ms_per_query_including_semantics": 21.471176182291654,
+          "retrieval_sort_ms_per_query": 1.0152702291666658,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 352.390625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 22.829509322916675,
+          "p50_batch_ms": 365.6773540000002,
+          "p95_batch_ms": 374.56010175000046,
+          "throughput_queries_per_second": 43.802956334071624,
+          "throughput_round_mean": 43.811017977337826,
+          "throughput_round_std": 0.5962121213977967,
+          "generation_ms_per_query_including_semantics": 21.938769307291672,
+          "retrieval_sort_ms_per_query": 0.8907400156249999,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 656.640625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "onerec": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 15.094213145833331,
+          "p50_batch_ms": 15.032958500000193,
+          "p95_batch_ms": 15.82273125000002,
+          "throughput_queries_per_second": 66.25055511926729,
+          "throughput_round_mean": 66.25203857929658,
+          "throughput_round_std": 0.3136074094979398,
+          "generation_ms_per_query_including_semantics": 14.094126057291675,
+          "retrieval_sort_ms_per_query": 1.0000870885416568,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 322.3125,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 15.304408848958339,
+          "p50_batch_ms": 235.85691649999995,
+          "p95_batch_ms": 290.08412674999994,
+          "throughput_queries_per_second": 65.3406485588016,
+          "throughput_round_mean": 65.51091714377407,
+          "throughput_round_std": 3.280173873038547,
+          "generation_ms_per_query_including_semantics": 14.412884973958336,
+          "retrieval_sort_ms_per_query": 0.8915238750000012,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 607.015625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "crab": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 21.949830963541682,
+          "p50_batch_ms": 21.861645500000026,
+          "p95_batch_ms": 22.848239400000026,
+          "throughput_queries_per_second": 45.5584374048704,
+          "throughput_round_mean": 45.559727772908595,
+          "throughput_round_std": 0.24241749583988895,
+          "generation_ms_per_query_including_semantics": 20.93410808854168,
+          "retrieval_sort_ms_per_query": 1.0157228750000042,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 350.515625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 22.952015630208336,
+          "p50_batch_ms": 364.2437914999999,
+          "p95_batch_ms": 388.07891250000006,
+          "throughput_queries_per_second": 43.569158199938144,
+          "throughput_round_mean": 43.594504764223196,
+          "throughput_round_std": 1.0428045266591208,
+          "generation_ms_per_query_including_semantics": 22.063715713541665,
+          "retrieval_sort_ms_per_query": 0.8882999166666683,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 662.34375,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "ghost": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 61.13288933854166,
+          "p50_batch_ms": 60.77974949999998,
+          "p95_batch_ms": 66.14142689999998,
+          "throughput_queries_per_second": 16.357806915720943,
+          "throughput_round_mean": 16.361619259793162,
+          "throughput_round_std": 0.2504849245574981,
+          "generation_ms_per_query_including_semantics": 60.95000152604166,
+          "retrieval_sort_ms_per_query": 0.1828878124999813,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 423.34375,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 62.83201064062498,
+          "p50_batch_ms": 1005.9855624999998,
+          "p95_batch_ms": 1020.4106081499989,
+          "throughput_queries_per_second": 15.91545439663895,
+          "throughput_round_mean": 15.915991690627528,
+          "throughput_round_std": 0.09237590370078187,
+          "generation_ms_per_query_including_semantics": 62.70854905208331,
+          "retrieval_sort_ms_per_query": 0.12346158854165587,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 875.109375,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      },
+      "sa2crq": {
+        "1": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 28.410011932291685,
+          "p50_batch_ms": 28.29568800000026,
+          "p95_batch_ms": 29.804004049999612,
+          "throughput_queries_per_second": 35.19885885240934,
+          "throughput_round_mean": 35.20449503352771,
+          "throughput_round_std": 0.44513038388894244,
+          "generation_ms_per_query_including_semantics": 28.25958134375001,
+          "retrieval_sort_ms_per_query": 0.1504305885416668,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 344.953125,
+          "all_archived_item_lists_match": false,
+          "mismatched_query_observations": 3
+        },
+        "16": {
+          "rounds": 3,
+          "queries_timed": 192,
+          "mean_ms_per_query_amortized": 29.262371744791658,
+          "p50_batch_ms": 469.1077080000001,
+          "p95_batch_ms": 476.96596439999985,
+          "throughput_queries_per_second": 34.173579938132924,
+          "throughput_round_mean": 34.174835025828656,
+          "throughput_round_std": 0.2069806683254935,
+          "generation_ms_per_query_including_semantics": 29.15555077604166,
+          "retrieval_sort_ms_per_query": 0.10682096874999973,
+          "mean_returned_items": 200.0,
+          "peak_process_RSS_MiB": 617.5625,
+          "all_archived_item_lists_match": true,
+          "mismatched_query_observations": 0
+        }
+      }
+    }
+  },
+  "reference_mismatches": [
+    {
+      "dataset": "industrial",
+      "method": "tiger",
+      "batch": 1,
+      "repeat": 0,
+      "rows": [
+        421
+      ]
+    },
+    {
+      "dataset": "industrial",
+      "method": "tiger",
+      "batch": 1,
+      "repeat": 1,
+      "rows": [
+        421
+      ]
+    },
+    {
+      "dataset": "industrial",
+      "method": "tiger",
+      "batch": 1,
+      "repeat": 2,
+      "rows": [
+        421
+      ]
+    },
+    {
+      "dataset": "office",
+      "method": "rqvae",
+      "batch": 1,
+      "repeat": 0,
+      "rows": [
+        2266,
+        3687
+      ]
+    },
+    {
+      "dataset": "office",
+      "method": "rqvae",
+      "batch": 1,
+      "repeat": 1,
+      "rows": [
+        2266,
+        3687
+      ]
+    },
+    {
+      "dataset": "office",
+      "method": "rqvae",
+      "batch": 1,
+      "repeat": 2,
+      "rows": [
+        2266,
+        3687
+      ]
+    },
+    {
+      "dataset": "office",
+      "method": "sa2crq",
+      "batch": 1,
+      "repeat": 0,
+      "rows": [
+        2109
+      ]
+    },
+    {
+      "dataset": "office",
+      "method": "sa2crq",
+      "batch": 1,
+      "repeat": 1,
+      "rows": [
+        2109
+      ]
+    },
+    {
+      "dataset": "office",
+      "method": "sa2crq",
+      "batch": 1,
+      "repeat": 2,
+      "rows": [
+        2109
+      ]
+    }
+  ],
+  "final_audit": {
+    "tasks": 84,
+    "all_unique_settings": true,
+    "same_fixed_queries": true,
+    "timing_components_sum_verified": true,
+    "all_batch16_item_lists_match": true,
+    "all_ours_item_lists_match": true,
+    "batch_change_audit": {
+      "cases": [
+        {
+          "setting": "industrial-tiger-b1-r99",
+          "mismatch_rows": [
+            421
+          ],
+          "different_target_rank_rows": [],
+          "target_ranks_actual": [
+            0
+          ],
+          "target_ranks_archive": [
+            0
+          ]
+        },
+        {
+          "setting": "office-sa2crq-b1-r99",
+          "mismatch_rows": [
+            2109
+          ],
+          "different_target_rank_rows": [],
+          "target_ranks_actual": [
+            0
+          ],
+          "target_ranks_archive": [
+            0
+          ]
+        },
+        {
+          "setting": "office-rqvae-b1-r99",
+          "mismatch_rows": [
+            2266,
+            3687
+          ],
+          "different_target_rank_rows": [],
+          "target_ranks_actual": [
+            0,
+            0
+          ],
+          "target_ranks_archive": [
+            0,
+            0
+          ]
+        }
+      ],
+      "all_target_ranks_same": true
+    },
+    "frozen_snapshot_check": {
+      "checked_files": 285,
+      "failures": []
+    }
+  }
+}

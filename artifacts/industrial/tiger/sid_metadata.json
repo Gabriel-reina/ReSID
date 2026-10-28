@@ -1,0 +1,13 @@
+{
+  "method": "TIGER-style SID",
+  "construction": "three RQ-VAE256 layers + stable collision suffix; reuse completed seed42 tokenizer; normalized Qwen2560 rather than original SentenceT5",
+  "items": 3686,
+  "unique_sids": 3686,
+  "extra_collision_rate": 0.0,
+  "collision_participation_rate": 0.0,
+  "max_aliases": 1,
+  "length_histogram": {
+    "4": 3686
+  },
+  "EOS": 256
+}

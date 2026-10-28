@@ -1,0 +1,47 @@
+{
+  "head_threshold_strict_gt": 13,
+  "head_items": 635,
+  "tail_items": 2824,
+  "head_depth": 4,
+  "tail_extra_depth": 2,
+  "codebook_size": 256,
+  "official_dedup_rank_token": true,
+  "raw_sid_stats": {
+    "items": 3459,
+    "unique_sids": 3228,
+    "extra_collision_rate": 0.06678230702515178,
+    "collision_participation_rate": 0.11910956923966465,
+    "max_aliases": 5,
+    "length_histogram": {
+      "4": 635,
+      "6": 2824
+    }
+  },
+  "final_stats": {
+    "items": 3459,
+    "unique_sids": 3459,
+    "extra_collision_rate": 0.0,
+    "collision_participation_rate": 0.0,
+    "max_aliases": 1,
+    "length_histogram": {
+      "5": 635,
+      "7": 2824
+    }
+  },
+  "Ka": 200,
+  "Kb": 5,
+  "adaptations": [
+    "catalogue PCA32 instead of paper learned Qwen reduction",
+    "training-target frequency instead of raw-history frequency",
+    "n_jobs=1 CPU only",
+    "paper tail-only AUO; official data.py currently also constructs head negatives and defaults shortlist50; both differences recorded"
+  ],
+  "method": "ghost",
+  "seed": 42,
+  "EOS": 262,
+  "PAD": 263,
+  "max_tokens_with_EOS": 8,
+  "features": {
+    "preprocessing": "Frozen catalogue-only PCA leading32 coordinates, renormalized; no semantic user projection or labels. Shared across the two baseline ports."
+  }
+}

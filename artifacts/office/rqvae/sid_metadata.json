@@ -1,0 +1,47 @@
+{
+  "method": "pure RQ-VAE, no collision suffix",
+  "first3codes_exactly_equal": true,
+  "original_tokenizer": {
+    "dataset": "Office_Products",
+    "method": "tiger",
+    "seed": 42,
+    "epochs": 20000,
+    "batch": 1024,
+    "config": {
+      "in_dim": 2560,
+      "num_emb_list": [
+        256,
+        256,
+        256
+      ],
+      "e_dim": 32,
+      "layers": [
+        512,
+        256,
+        128
+      ],
+      "beta": 0.25,
+      "kmeans_init": true,
+      "kmeans_iters": 100,
+      "sk_epsilons": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sk_iters": 50
+    },
+    "selection": "minimum catalogue reconstruction MSE every500epochs; no test labels",
+    "initial_accumulator": 0.1
+  },
+  "construction": "reuse exact three learned RQ-VAE256 semantic codes; remove ordinal fourth token; preserve aliases",
+  "dataset": "office",
+  "items": 3459,
+  "unique_sids": 3321,
+  "extra_collision_rate": 0.0398959236773634,
+  "collision_participation_rate": 0.07429893032668401,
+  "max_aliases": 5,
+  "length_histogram": {
+    "3": 3459
+  },
+  "EOS": 256
+}

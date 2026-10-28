@@ -1,0 +1,27 @@
+test_all_reference_archives_independent_metrics (test_release.ReleaseTests) ... ok
+test_anonymous_text (test_release.ReleaseTests) ... ok
+test_baseline_trained_artifact_override (test_release.ReleaseTests) ... ok
+test_decoder_causality (test_release.ReleaseTests) ... ok
+test_empty_group_reports_none (test_release.ReleaseTests) ... ok
+test_eos_not_another_probability (test_release.ReleaseTests) ... ok
+test_fixed_groups (test_release.ReleaseTests) ... ok
+test_history_uses_only_histories (test_release.ReleaseTests) ... ok
+test_lambda_zero_exact (test_release.ReleaseTests) ... ok
+test_new_output_refuses_overwrite (test_release.ReleaseTests) ... ok
+test_partial_invalid_and_empty (test_release.ReleaseTests) ... ok
+test_partial_matching_keeps_aliases (test_release.ReleaseTests) ... ok
+test_potential_constant_cancels (test_release.ReleaseTests) ... ok
+test_priors_train_counts_each_depth (test_release.ReleaseTests) ... ok
+test_python_parse (test_release.ReleaseTests) ... ok
+test_target_free_api (test_release.ReleaseTests) ... ok
+test_tokenizers_frozen_codes (test_release.ReleaseTests) ... ok
+test_trace_equals_raw_search (test_release.ReleaseTests) ... ok
+test_training_import_and_no_test_read (test_release.ReleaseTests) ... ok
+test_training_two_tiny_epochs (test_release.ReleaseTests) ... GR {'epoch': 1, 'validation_nll': 1.2224278450012207, 'train_loss': 1.2406305074691772}
+GR {'epoch': 2, 'validation_nll': 1.2042584419250488, 'train_loss': 1.2224278450012207}
+ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 4.723s
+
+OK

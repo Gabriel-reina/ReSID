@@ -1,0 +1,61 @@
+{
+  "name": "parallel3x256",
+  "mode": "parallel",
+  "levels": 3,
+  "size": 256,
+  "nominal_capacity": 16777216,
+  "selected": {
+    "epoch": 2800,
+    "mse": 0.26031166315078735,
+    "quantization_loss": 0.20029516518115997,
+    "unique_sids": 2682,
+    "extra_rate": 0.27238198589256646,
+    "participating_rate": 0.40260444926749867,
+    "largest_group": 25
+  },
+  "best_mse": {
+    "epoch": 3000,
+    "mse": 0.25479334592819214,
+    "quantization_loss": 0.20024369657039642,
+    "unique_sids": 2672,
+    "extra_rate": 0.27509495387954425,
+    "participating_rate": 0.40694519804666307,
+    "largest_group": 27
+  },
+  "best_collision": {
+    "epoch": 2800,
+    "mse": 0.26031166315078735,
+    "quantization_loss": 0.20029516518115997,
+    "unique_sids": 2682,
+    "extra_rate": 0.27238198589256646,
+    "participating_rate": 0.40260444926749867,
+    "largest_group": 25
+  },
+  "positions": [
+    {
+      "position": 1,
+      "used": 83,
+      "entropy_bits": 6.1235856081462625,
+      "largest_cluster": 138
+    },
+    {
+      "position": 2,
+      "used": 132,
+      "entropy_bits": 6.642093748602541,
+      "largest_cluster": 100
+    },
+    {
+      "position": 3,
+      "used": 108,
+      "entropy_bits": 6.2349523302142185,
+      "largest_cluster": 173
+    }
+  ],
+  "autoencoder_parameters": 2978144,
+  "codebook_parameters": 24576,
+  "non_sid_fields_unchanged": {
+    "train": 36259,
+    "valid": 4532,
+    "test": 4533
+  }
+}

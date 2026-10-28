@@ -1,0 +1,2565 @@
+{
+  "positions": {
+    "all": {
+      "queries": 4533,
+      "top1_match_rate": [
+        0.2920803000220604,
+        0.26671078755790867,
+        0.3388484447385837,
+        0.2673726009265387,
+        0.20229428634458416,
+        0.2225898963159056
+      ],
+      "anybeam_position_match_rate": [
+        0.6631369953673064,
+        0.6739466137215971,
+        0.6960070593425988,
+        0.784690050739025,
+        0.8067504963600265,
+        0.7412309728656519
+      ],
+      "nearest_beam_tie_average_mismatch_rate": [
+        0.4746484160423279,
+        0.4785304367542267,
+        0.4700978696346283,
+        0.4242459535598755,
+        0.46773621439933777,
+        0.4811243712902069
+      ],
+      "nearest_beam_mandatory_mismatch_rate": [
+        0.4026031325832782,
+        0.40304434149569823,
+        0.3878226340172071,
+        0.31789102139863223,
+        0.33245091550849326,
+        0.3684094418707258
+      ],
+      "all6_individually_present_rate": 0.3326715199647033
+    },
+    "head": {
+      "queries": 1919,
+      "top1_match_rate": [
+        0.37154768108389785,
+        0.34809796769150597,
+        0.42209484106305367,
+        0.34966128191766543,
+        0.2803543512245961,
+        0.327774882751433
+      ],
+      "anybeam_position_match_rate": [
+        0.7529963522668056,
+        0.7363210005211047,
+        0.7488275143303804,
+        0.8124022928608651,
+        0.8556539864512767,
+        0.8056279312141741
+      ],
+      "nearest_beam_tie_average_mismatch_rate": [
+        0.3644905388355255,
+        0.39419102668762207,
+        0.3786107003688812,
+        0.35157454013824463,
+        0.36154186725616455,
+        0.3736662268638611
+      ],
+      "nearest_beam_mandatory_mismatch_rate": [
+        0.2991141219385096,
+        0.3324648254299114,
+        0.31891610213652943,
+        0.26941115164147994,
+        0.25586242834809797,
+        0.2819176654507556
+      ],
+      "all6_individually_present_rate": 0.4799374674309536
+    },
+    "tail": {
+      "queries": 1682,
+      "top1_match_rate": [
+        0.1991676575505351,
+        0.17776456599286564,
+        0.26040428061831156,
+        0.18549346016646848,
+        0.1278240190249703,
+        0.1272294887039239
+      ],
+      "anybeam_position_match_rate": [
+        0.5576694411414982,
+        0.6189060642092746,
+        0.6533888228299644,
+        0.7544589774078478,
+        0.760998810939358,
+        0.6944114149821641
+      ],
+      "nearest_beam_tie_average_mismatch_rate": [
+        0.5955234169960022,
+        0.5607638359069824,
+        0.5501189827919006,
+        0.508931040763855,
+        0.5611358284950256,
+        0.5778669714927673
+      ],
+      "nearest_beam_mandatory_mismatch_rate": [
+        0.5178359096313913,
+        0.46730083234244946,
+        0.44589774078478,
+        0.3751486325802616,
+        0.3947681331747919,
+        0.441141498216409
+      ],
+      "all6_individually_present_rate": 0.18846611177170036
+    }
+  },
+  "mask_patterns": {
+    "all": {
+      "1": {
+        "patterns": [
+          {
+            "pattern": 31,
+            "masked": [
+              6
+            ],
+            "target_coverage": 0.2638429296271785,
+            "mean_candidates": 78.71409662475182
+          },
+          {
+            "pattern": 47,
+            "masked": [
+              5
+            ],
+            "target_coverage": 0.26538716082064856,
+            "mean_candidates": 81.0068387381425
+          },
+          {
+            "pattern": 55,
+            "masked": [
+              4
+            ],
+            "target_coverage": 0.26185748952128834,
+            "mean_candidates": 78.00794176042356
+          },
+          {
+            "pattern": 59,
+            "masked": [
+              3
+            ],
+            "target_coverage": 0.2561217736598279,
+            "mean_candidates": 74.12199426428414
+          },
+          {
+            "pattern": 61,
+            "masked": [
+              2
+            ],
+            "target_coverage": 0.26207809397749837,
+            "mean_candidates": 73.96646812265608
+          },
+          {
+            "pattern": 62,
+            "masked": [
+              1
+            ],
+            "target_coverage": 0.2556805647474079,
+            "mean_candidates": 73.54246635782043
+          }
+        ],
+        "fixed_coverage": 0.26538716082064856,
+        "fixed_mean_candidates": 81.0068387381425,
+        "validation_selected_fixed_pattern": 47,
+        "union_coverage": 0.2969335980586808,
+        "union_mean_candidates": 110.7599823516435,
+        "min_fixed_coverage": 0.2556805647474079,
+        "max_fixed_coverage_diagnostic_only": 0.26538716082064856
+      },
+      "2": {
+        "patterns": [
+          {
+            "pattern": 15,
+            "masked": [
+              5,
+              6
+            ],
+            "target_coverage": 0.29119788219722037,
+            "mean_candidates": 108.03000220604456
+          },
+          {
+            "pattern": 23,
+            "masked": [
+              4,
+              6
+            ],
+            "target_coverage": 0.2788440326494595,
+            "mean_candidates": 100.48510919920582
+          },
+          {
+            "pattern": 27,
+            "masked": [
+              3,
+              6
+            ],
+            "target_coverage": 0.2700198544010589,
+            "mean_candidates": 88.74211339069049
+          },
+          {
+            "pattern": 29,
+            "masked": [
+              2,
+              6
+            ],
+            "target_coverage": 0.2823737039488198,
+            "mean_candidates": 94.11294948157953
+          },
+          {
+            "pattern": 30,
+            "masked": [
+              1,
+              6
+            ],
+            "target_coverage": 0.271343481138319,
+            "mean_candidates": 92.71917052724466
+          },
+          {
+            "pattern": 39,
+            "masked": [
+              4,
+              5
+            ],
+            "target_coverage": 0.28524156187954997,
+            "mean_candidates": 106.20516214427532
+          },
+          {
+            "pattern": 43,
+            "masked": [
+              3,
+              5
+            ],
+            "target_coverage": 0.2726671078755791,
+            "mean_candidates": 94.50011030222811
+          },
+          {
+            "pattern": 45,
+            "masked": [
+              2,
+              5
+            ],
+            "target_coverage": 0.2843591440547099,
+            "mean_candidates": 99.38363114934921
+          },
+          {
+            "pattern": 46,
+            "masked": [
+              1,
+              5
+            ],
+            "target_coverage": 0.27553496580630926,
+            "mean_candidates": 99.61394220163247
+          },
+          {
+            "pattern": 51,
+            "masked": [
+              3,
+              4
+            ],
+            "target_coverage": 0.2686962276637988,
+            "mean_candidates": 88.475843812045
+          },
+          {
+            "pattern": 53,
+            "masked": [
+              2,
+              4
+            ],
+            "target_coverage": 0.27619677917493934,
+            "mean_candidates": 95.12905360688286
+          },
+          {
+            "pattern": 54,
+            "masked": [
+              1,
+              4
+            ],
+            "target_coverage": 0.26781380983895875,
+            "mean_candidates": 88.41230972865652
+          },
+          {
+            "pattern": 57,
+            "masked": [
+              2,
+              3
+            ],
+            "target_coverage": 0.2680344142951688,
+            "mean_candidates": 83.41451577321862
+          },
+          {
+            "pattern": 58,
+            "masked": [
+              1,
+              3
+            ],
+            "target_coverage": 0.26207809397749837,
+            "mean_candidates": 82.24509155084932
+          },
+          {
+            "pattern": 60,
+            "masked": [
+              1,
+              2
+            ],
+            "target_coverage": 0.2671519964703287,
+            "mean_candidates": 84.25391572909773
+          }
+        ],
+        "fixed_coverage": 0.28524156187954997,
+        "fixed_mean_candidates": 106.20516214427532,
+        "validation_selected_fixed_pattern": 39,
+        "union_coverage": 0.35517317449812486,
+        "union_mean_candidates": 225.99404367968233,
+        "min_fixed_coverage": 0.26207809397749837,
+        "max_fixed_coverage_diagnostic_only": 0.29119788219722037
+      },
+      "3": {
+        "patterns": [
+          {
+            "pattern": 7,
+            "masked": [
+              4,
+              5,
+              6
+            ],
+            "target_coverage": 0.3249503639973527,
+            "mean_candidates": 184.77873373042135
+          },
+          {
+            "pattern": 11,
+            "masked": [
+              3,
+              5,
+              6
+            ],
+            "target_coverage": 0.314361350099272,
+            "mean_candidates": 153.93734833443636
+          },
+          {
+            "pattern": 13,
+            "masked": [
+              2,
+              5,
+              6
+            ],
+            "target_coverage": 0.3355393778954335,
+            "mean_candidates": 168.79263181116258
+          },
+          {
+            "pattern": 14,
+            "masked": [
+              1,
+              5,
+              6
+            ],
+            "target_coverage": 0.3200970659607324,
+            "mean_candidates": 162.6671078755791
+          },
+          {
+            "pattern": 19,
+            "masked": [
+              3,
+              4,
+              6
+            ],
+            "target_coverage": 0.2962717846900507,
+            "mean_candidates": 143.04081182439884
+          },
+          {
+            "pattern": 21,
+            "masked": [
+              2,
+              4,
+              6
+            ],
+            "target_coverage": 0.31502316346790205,
+            "mean_candidates": 167.27465254798147
+          },
+          {
+            "pattern": 22,
+            "masked": [
+              1,
+              4,
+              6
+            ],
+            "target_coverage": 0.29891903816457094,
+            "mean_candidates": 147.66004853298037
+          },
+          {
+            "pattern": 25,
+            "masked": [
+              2,
+              3,
+              6
+            ],
+            "target_coverage": 0.30377233620119126,
+            "mean_candidates": 140.78380763291418
+          },
+          {
+            "pattern": 26,
+            "masked": [
+              1,
+              3,
+              6
+            ],
+            "target_coverage": 0.29053606882859034,
+            "mean_candidates": 130.31127288771233
+          },
+          {
+            "pattern": 28,
+            "masked": [
+              1,
+              2,
+              6
+            ],
+            "target_coverage": 0.3044341495698213,
+            "mean_candidates": 149.3789984557688
+          },
+          {
+            "pattern": 35,
+            "masked": [
+              3,
+              4,
+              5
+            ],
+            "target_coverage": 0.30553717185087137,
+            "mean_candidates": 156.80520626516656
+          },
+          {
+            "pattern": 37,
+            "masked": [
+              2,
+              4,
+              5
+            ],
+            "target_coverage": 0.3123759099933819,
+            "mean_candidates": 166.4251047871167
+          },
+          {
+            "pattern": 38,
+            "masked": [
+              1,
+              4,
+              5
+            ],
+            "target_coverage": 0.3101698654312817,
+            "mean_candidates": 161.71122876682108
+          },
+          {
+            "pattern": 41,
+            "masked": [
+              2,
+              3,
+              5
+            ],
+            "target_coverage": 0.30664019413192145,
+            "mean_candidates": 146.65519523494373
+          },
+          {
+            "pattern": 42,
+            "masked": [
+              1,
+              3,
+              5
+            ],
+            "target_coverage": 0.29936024707699094,
+            "mean_candidates": 142.9205823957644
+          },
+          {
+            "pattern": 44,
+            "masked": [
+              1,
+              2,
+              5
+            ],
+            "target_coverage": 0.3088462386940216,
+            "mean_candidates": 149.79020516214428
+          },
+          {
+            "pattern": 49,
+            "masked": [
+              2,
+              3,
+              4
+            ],
+            "target_coverage": 0.2920803000220604,
+            "mean_candidates": 143.16501213324509
+          },
+          {
+            "pattern": 50,
+            "masked": [
+              1,
+              3,
+              4
+            ],
+            "target_coverage": 0.2841385395984999,
+            "mean_candidates": 123.32428855062872
+          },
+          {
+            "pattern": 52,
+            "masked": [
+              1,
+              2,
+              4
+            ],
+            "target_coverage": 0.29185969556585045,
+            "mean_candidates": 136.2135451136113
+          },
+          {
+            "pattern": 56,
+            "masked": [
+              1,
+              2,
+              3
+            ],
+            "target_coverage": 0.2848003529671299,
+            "mean_candidates": 127.82969335980587
+          }
+        ],
+        "fixed_coverage": 0.3249503639973527,
+        "fixed_mean_candidates": 184.77873373042135,
+        "validation_selected_fixed_pattern": 7,
+        "union_coverage": 0.5038605779836752,
+        "union_mean_candidates": 689.9909552172954,
+        "min_fixed_coverage": 0.2841385395984999,
+        "max_fixed_coverage_diagnostic_only": 0.3355393778954335
+      }
+    },
+    "head": {
+      "1": {
+        "patterns": [
+          {
+            "pattern": 31,
+            "masked": [
+              6
+            ],
+            "target_coverage": 0.42417926003126627,
+            "mean_candidates": 76.86816050026056
+          },
+          {
+            "pattern": 47,
+            "masked": [
+              5
+            ],
+            "target_coverage": 0.42209484106305367,
+            "mean_candidates": 79.34549244398124
+          },
+          {
+            "pattern": 55,
+            "masked": [
+              4
+            ],
+            "target_coverage": 0.42209484106305367,
+            "mean_candidates": 76.40177175612298
+          },
+          {
+            "pattern": 59,
+            "masked": [
+              3
+            ],
+            "target_coverage": 0.4153204794163627,
+            "mean_candidates": 72.64512767066181
+          },
+          {
+            "pattern": 61,
+            "masked": [
+              2
+            ],
+            "target_coverage": 0.42365815528921313,
+            "mean_candidates": 72.46690984887962
+          },
+          {
+            "pattern": 62,
+            "masked": [
+              1
+            ],
+            "target_coverage": 0.4137571651902032,
+            "mean_candidates": 71.94893173527879
+          }
+        ],
+        "fixed_coverage": 0.42209484106305367,
+        "fixed_mean_candidates": 79.34549244398124,
+        "validation_selected_fixed_pattern": 47,
+        "union_coverage": 0.44971339239187075,
+        "union_mean_candidates": 108.87754038561751,
+        "min_fixed_coverage": 0.4137571651902032,
+        "max_fixed_coverage_diagnostic_only": 0.42417926003126627
+      },
+      "2": {
+        "patterns": [
+          {
+            "pattern": 15,
+            "masked": [
+              5,
+              6
+            ],
+            "target_coverage": 0.4392912975508077,
+            "mean_candidates": 105.82751433038041
+          },
+          {
+            "pattern": 23,
+            "masked": [
+              4,
+              6
+            ],
+            "target_coverage": 0.43772798332464824,
+            "mean_candidates": 98.76289734236582
+          },
+          {
+            "pattern": 27,
+            "masked": [
+              3,
+              6
+            ],
+            "target_coverage": 0.42782699322563833,
+            "mean_candidates": 87.13444502344971
+          },
+          {
+            "pattern": 29,
+            "masked": [
+              2,
+              6
+            ],
+            "target_coverage": 0.44085461177696716,
+            "mean_candidates": 92.15945805106827
+          },
+          {
+            "pattern": 30,
+            "masked": [
+              1,
+              6
+            ],
+            "target_coverage": 0.4273058884835852,
+            "mean_candidates": 90.39812402292861
+          },
+          {
+            "pattern": 39,
+            "masked": [
+              4,
+              5
+            ],
+            "target_coverage": 0.4372068785825951,
+            "mean_candidates": 104.08546117769671
+          },
+          {
+            "pattern": 43,
+            "masked": [
+              3,
+              5
+            ],
+            "target_coverage": 0.42678478374153206,
+            "mean_candidates": 92.8754559666493
+          },
+          {
+            "pattern": 45,
+            "masked": [
+              2,
+              5
+            ],
+            "target_coverage": 0.4413757165190203,
+            "mean_candidates": 97.7363210005211
+          },
+          {
+            "pattern": 46,
+            "masked": [
+              1,
+              5
+            ],
+            "target_coverage": 0.42678478374153206,
+            "mean_candidates": 97.52110474205315
+          },
+          {
+            "pattern": 51,
+            "masked": [
+              3,
+              4
+            ],
+            "target_coverage": 0.42470036477331946,
+            "mean_candidates": 87.00677436164669
+          },
+          {
+            "pattern": 53,
+            "masked": [
+              2,
+              4
+            ],
+            "target_coverage": 0.4372068785825951,
+            "mean_candidates": 93.42470036477332
+          },
+          {
+            "pattern": 54,
+            "masked": [
+              1,
+              4
+            ],
+            "target_coverage": 0.42365815528921313,
+            "mean_candidates": 86.68577384054196
+          },
+          {
+            "pattern": 57,
+            "masked": [
+              2,
+              3
+            ],
+            "target_coverage": 0.42626367899947887,
+            "mean_candidates": 82.16519020323085
+          },
+          {
+            "pattern": 58,
+            "masked": [
+              1,
+              3
+            ],
+            "target_coverage": 0.41688379364252215,
+            "mean_candidates": 80.74465867639395
+          },
+          {
+            "pattern": 60,
+            "masked": [
+              1,
+              2
+            ],
+            "target_coverage": 0.42470036477331946,
+            "mean_candidates": 82.58363731109954
+          }
+        ],
+        "fixed_coverage": 0.4372068785825951,
+        "fixed_mean_candidates": 104.08546117769671,
+        "validation_selected_fixed_pattern": 39,
+        "union_coverage": 0.4820218863991662,
+        "union_mean_candidates": 223.80145909327774,
+        "min_fixed_coverage": 0.41688379364252215,
+        "max_fixed_coverage_diagnostic_only": 0.4413757165190203
+      },
+      "3": {
+        "patterns": [
+          {
+            "pattern": 7,
+            "masked": [
+              4,
+              5,
+              6
+            ],
+            "target_coverage": 0.46847316310578424,
+            "mean_candidates": 182.77800937988536
+          },
+          {
+            "pattern": 11,
+            "masked": [
+              3,
+              5,
+              6
+            ],
+            "target_coverage": 0.4528400208441897,
+            "mean_candidates": 152.24231370505473
+          },
+          {
+            "pattern": 13,
+            "masked": [
+              2,
+              5,
+              6
+            ],
+            "target_coverage": 0.4731631057842626,
+            "mean_candidates": 166.68212610734759
+          },
+          {
+            "pattern": 14,
+            "masked": [
+              1,
+              5,
+              6
+            ],
+            "target_coverage": 0.45648775403856173,
+            "mean_candidates": 159.42105263157896
+          },
+          {
+            "pattern": 19,
+            "masked": [
+              3,
+              4,
+              6
+            ],
+            "target_coverage": 0.4491922876498176,
+            "mean_candidates": 142.1657113079729
+          },
+          {
+            "pattern": 21,
+            "masked": [
+              2,
+              4,
+              6
+            ],
+            "target_coverage": 0.47107868681605003,
+            "mean_candidates": 164.94841063053673
+          },
+          {
+            "pattern": 22,
+            "masked": [
+              1,
+              4,
+              6
+            ],
+            "target_coverage": 0.4465867639395518,
+            "mean_candidates": 144.99166232412716
+          },
+          {
+            "pattern": 25,
+            "masked": [
+              2,
+              3,
+              6
+            ],
+            "target_coverage": 0.45231891610213654,
+            "mean_candidates": 138.83011985409067
+          },
+          {
+            "pattern": 26,
+            "masked": [
+              1,
+              3,
+              6
+            ],
+            "target_coverage": 0.43981240229286084,
+            "mean_candidates": 128.95466388744137
+          },
+          {
+            "pattern": 28,
+            "masked": [
+              1,
+              2,
+              6
+            ],
+            "target_coverage": 0.4512767066180302,
+            "mean_candidates": 147.07816571130797
+          },
+          {
+            "pattern": 35,
+            "masked": [
+              3,
+              4,
+              5
+            ],
+            "target_coverage": 0.44762897342365815,
+            "mean_candidates": 154.77488275143304
+          },
+          {
+            "pattern": 37,
+            "masked": [
+              2,
+              4,
+              5
+            ],
+            "target_coverage": 0.4648254299114122,
+            "mean_candidates": 163.81500781657112
+          },
+          {
+            "pattern": 38,
+            "masked": [
+              1,
+              4,
+              5
+            ],
+            "target_coverage": 0.453882230328296,
+            "mean_candidates": 158.70036477331945
+          },
+          {
+            "pattern": 41,
+            "masked": [
+              2,
+              3,
+              5
+            ],
+            "target_coverage": 0.4580510682647212,
+            "mean_candidates": 144.69723814486713
+          },
+          {
+            "pattern": 42,
+            "masked": [
+              1,
+              3,
+              5
+            ],
+            "target_coverage": 0.44085461177696716,
+            "mean_candidates": 141.00416883793642
+          },
+          {
+            "pattern": 44,
+            "masked": [
+              1,
+              2,
+              5
+            ],
+            "target_coverage": 0.4580510682647212,
+            "mean_candidates": 147.30276185513287
+          },
+          {
+            "pattern": 49,
+            "masked": [
+              2,
+              3,
+              4
+            ],
+            "target_coverage": 0.4445023449713392,
+            "mean_candidates": 141.77071391349662
+          },
+          {
+            "pattern": 50,
+            "masked": [
+              1,
+              3,
+              4
+            ],
+            "target_coverage": 0.43147472642001045,
+            "mean_candidates": 121.74674309536216
+          },
+          {
+            "pattern": 52,
+            "masked": [
+              1,
+              2,
+              4
+            ],
+            "target_coverage": 0.4481500781657113,
+            "mean_candidates": 133.5930171964565
+          },
+          {
+            "pattern": 56,
+            "masked": [
+              1,
+              2,
+              3
+            ],
+            "target_coverage": 0.43355914538822304,
+            "mean_candidates": 126.42209484106306
+          }
+        ],
+        "fixed_coverage": 0.46847316310578424,
+        "fixed_mean_candidates": 182.77800937988536,
+        "validation_selected_fixed_pattern": 7,
+        "union_coverage": 0.5977071391349661,
+        "union_mean_candidates": 688.9343408025013,
+        "min_fixed_coverage": 0.43147472642001045,
+        "max_fixed_coverage_diagnostic_only": 0.4731631057842626
+      }
+    },
+    "tail": {
+      "1": {
+        "patterns": [
+          {
+            "pattern": 31,
+            "masked": [
+              6
+            ],
+            "target_coverage": 0.10642092746730084,
+            "mean_candidates": 77.52972651605232
+          },
+          {
+            "pattern": 47,
+            "masked": [
+              5
+            ],
+            "target_coverage": 0.11414982164090369,
+            "mean_candidates": 79.88049940546968
+          },
+          {
+            "pattern": 55,
+            "masked": [
+              4
+            ],
+            "target_coverage": 0.1070154577883472,
+            "mean_candidates": 76.70808561236623
+          },
+          {
+            "pattern": 59,
+            "masked": [
+              3
+            ],
+            "target_coverage": 0.1028537455410226,
+            "mean_candidates": 73.22651605231867
+          },
+          {
+            "pattern": 61,
+            "masked": [
+              2
+            ],
+            "target_coverage": 0.10939357907253269,
+            "mean_candidates": 72.7627824019025
+          },
+          {
+            "pattern": 62,
+            "masked": [
+              1
+            ],
+            "target_coverage": 0.10225921521997622,
+            "mean_candidates": 72.52497027348394
+          }
+        ],
+        "fixed_coverage": 0.11414982164090369,
+        "fixed_mean_candidates": 79.88049940546968,
+        "validation_selected_fixed_pattern": 47,
+        "union_coverage": 0.14803804994054698,
+        "union_mean_candidates": 109.06242568370988,
+        "min_fixed_coverage": 0.10225921521997622,
+        "max_fixed_coverage_diagnostic_only": 0.11414982164090369
+      },
+      "2": {
+        "patterns": [
+          {
+            "pattern": 15,
+            "masked": [
+              5,
+              6
+            ],
+            "target_coverage": 0.14209274673008324,
+            "mean_candidates": 105.89952437574317
+          },
+          {
+            "pattern": 23,
+            "masked": [
+              4,
+              6
+            ],
+            "target_coverage": 0.12306777645659929,
+            "mean_candidates": 98.5653983353151
+          },
+          {
+            "pattern": 27,
+            "masked": [
+              3,
+              6
+            ],
+            "target_coverage": 0.11474435196195006,
+            "mean_candidates": 87.70868014268727
+          },
+          {
+            "pattern": 29,
+            "masked": [
+              2,
+              6
+            ],
+            "target_coverage": 0.12841854934601665,
+            "mean_candidates": 92.51248513674197
+          },
+          {
+            "pattern": 30,
+            "masked": [
+              1,
+              6
+            ],
+            "target_coverage": 0.11831153388822829,
+            "mean_candidates": 91.31212841854935
+          },
+          {
+            "pattern": 39,
+            "masked": [
+              4,
+              5
+            ],
+            "target_coverage": 0.13793103448275862,
+            "mean_candidates": 104.60701545778835
+          },
+          {
+            "pattern": 43,
+            "masked": [
+              3,
+              5
+            ],
+            "target_coverage": 0.1248513674197384,
+            "mean_candidates": 93.81569560047562
+          },
+          {
+            "pattern": 45,
+            "masked": [
+              2,
+              5
+            ],
+            "target_coverage": 0.13258026159334127,
+            "mean_candidates": 97.40011890606421
+          },
+          {
+            "pattern": 46,
+            "masked": [
+              1,
+              5
+            ],
+            "target_coverage": 0.13020214030915578,
+            "mean_candidates": 98.27705112960761
+          },
+          {
+            "pattern": 51,
+            "masked": [
+              3,
+              4
+            ],
+            "target_coverage": 0.11831153388822829,
+            "mean_candidates": 87.33412604042806
+          },
+          {
+            "pattern": 53,
+            "masked": [
+              2,
+              4
+            ],
+            "target_coverage": 0.12306777645659929,
+            "mean_candidates": 93.28418549346017
+          },
+          {
+            "pattern": 54,
+            "masked": [
+              1,
+              4
+            ],
+            "target_coverage": 0.1159334126040428,
+            "mean_candidates": 86.92330558858502
+          },
+          {
+            "pattern": 57,
+            "masked": [
+              2,
+              3
+            ],
+            "target_coverage": 0.11771700356718193,
+            "mean_candidates": 82.30618311533888
+          },
+          {
+            "pattern": 58,
+            "masked": [
+              1,
+              3
+            ],
+            "target_coverage": 0.11355529131985731,
+            "mean_candidates": 81.37871581450653
+          },
+          {
+            "pattern": 60,
+            "masked": [
+              1,
+              2
+            ],
+            "target_coverage": 0.11712247324613555,
+            "mean_candidates": 82.9268727705113
+          }
+        ],
+        "fixed_coverage": 0.13793103448275862,
+        "fixed_mean_candidates": 104.60701545778835,
+        "validation_selected_fixed_pattern": 39,
+        "union_coverage": 0.22889417360285375,
+        "union_mean_candidates": 223.16944114149823,
+        "min_fixed_coverage": 0.11355529131985731,
+        "max_fixed_coverage_diagnostic_only": 0.14209274673008324
+      },
+      "3": {
+        "patterns": [
+          {
+            "pattern": 7,
+            "masked": [
+              4,
+              5,
+              6
+            ],
+            "target_coverage": 0.18608799048751487,
+            "mean_candidates": 182.42390011890606
+          },
+          {
+            "pattern": 11,
+            "masked": [
+              3,
+              5,
+              6
+            ],
+            "target_coverage": 0.1724137931034483,
+            "mean_candidates": 152.589774078478
+          },
+          {
+            "pattern": 13,
+            "masked": [
+              2,
+              5,
+              6
+            ],
+            "target_coverage": 0.19500594530321047,
+            "mean_candidates": 165.78775267538646
+          },
+          {
+            "pattern": 14,
+            "masked": [
+              1,
+              5,
+              6
+            ],
+            "target_coverage": 0.18014268727705113,
+            "mean_candidates": 160.3935790725327
+          },
+          {
+            "pattern": 19,
+            "masked": [
+              3,
+              4,
+              6
+            ],
+            "target_coverage": 0.14625445897740785,
+            "mean_candidates": 141.97265160523187
+          },
+          {
+            "pattern": 21,
+            "masked": [
+              2,
+              4,
+              6
+            ],
+            "target_coverage": 0.16527942925089179,
+            "mean_candidates": 164.30321046373365
+          },
+          {
+            "pattern": 22,
+            "masked": [
+              1,
+              4,
+              6
+            ],
+            "target_coverage": 0.15279429250891796,
+            "mean_candidates": 145.282401902497
+          },
+          {
+            "pattern": 25,
+            "masked": [
+              2,
+              3,
+              6
+            ],
+            "target_coverage": 0.15755053507728894,
+            "mean_candidates": 139.55231866825207
+          },
+          {
+            "pattern": 26,
+            "masked": [
+              1,
+              3,
+              6
+            ],
+            "target_coverage": 0.14447086801426873,
+            "mean_candidates": 128.25326991676576
+          },
+          {
+            "pattern": 28,
+            "masked": [
+              1,
+              2,
+              6
+            ],
+            "target_coverage": 0.16230677764565993,
+            "mean_candidates": 146.80083234244947
+          },
+          {
+            "pattern": 35,
+            "masked": [
+              3,
+              4,
+              5
+            ],
+            "target_coverage": 0.16884661117717004,
+            "mean_candidates": 156.29191438763377
+          },
+          {
+            "pattern": 37,
+            "masked": [
+              2,
+              4,
+              5
+            ],
+            "target_coverage": 0.16468489892984542,
+            "mean_candidates": 164.78894173602853
+          },
+          {
+            "pattern": 38,
+            "masked": [
+              1,
+              4,
+              5
+            ],
+            "target_coverage": 0.1724137931034483,
+            "mean_candidates": 160.6242568370987
+          },
+          {
+            "pattern": 41,
+            "masked": [
+              2,
+              3,
+              5
+            ],
+            "target_coverage": 0.15636147443519618,
+            "mean_candidates": 145.7128418549346
+          },
+          {
+            "pattern": 42,
+            "masked": [
+              1,
+              3,
+              5
+            ],
+            "target_coverage": 0.16765755053507728,
+            "mean_candidates": 142.1617122473246
+          },
+          {
+            "pattern": 44,
+            "masked": [
+              1,
+              2,
+              5
+            ],
+            "target_coverage": 0.16468489892984542,
+            "mean_candidates": 147.9280618311534
+          },
+          {
+            "pattern": 49,
+            "masked": [
+              2,
+              3,
+              4
+            ],
+            "target_coverage": 0.1456599286563615,
+            "mean_candidates": 141.26753864447087
+          },
+          {
+            "pattern": 50,
+            "masked": [
+              1,
+              3,
+              4
+            ],
+            "target_coverage": 0.14149821640903687,
+            "mean_candidates": 122.72711058263971
+          },
+          {
+            "pattern": 52,
+            "masked": [
+              1,
+              2,
+              4
+            ],
+            "target_coverage": 0.1426872770511296,
+            "mean_candidates": 134.4346016646849
+          },
+          {
+            "pattern": 56,
+            "masked": [
+              1,
+              2,
+              3
+            ],
+            "target_coverage": 0.1450653983353151,
+            "mean_candidates": 127.28894173602853
+          }
+        ],
+        "fixed_coverage": 0.18608799048751487,
+        "fixed_mean_candidates": 182.42390011890606,
+        "validation_selected_fixed_pattern": 7,
+        "union_coverage": 0.415576694411415,
+        "union_mean_candidates": 689.5719381688466,
+        "min_fixed_coverage": 0.14149821640903687,
+        "max_fixed_coverage_diagnostic_only": 0.19500594530321047
+      }
+    }
+  },
+  "radius": {
+    "all": [
+      {
+        "m": 0,
+        "target_coverage": 0.2525921023604677,
+        "mean_candidates": 69.21575115817339
+      },
+      {
+        "m": 1,
+        "target_coverage": 0.2969335980586808,
+        "mean_candidates": 110.7599823516435
+      },
+      {
+        "m": 2,
+        "target_coverage": 0.35517317449812486,
+        "mean_candidates": 225.99404367968233
+      },
+      {
+        "m": 3,
+        "target_coverage": 0.5038605779836752,
+        "mean_candidates": 689.9909552172954
+      },
+      {
+        "m": 4,
+        "target_coverage": 0.800794176042356,
+        "mean_candidates": 2215.7568938892564
+      },
+      {
+        "m": 5,
+        "target_coverage": 0.9942642841385396,
+        "mean_candidates": 3618.1275093756894
+      },
+      {
+        "m": 6,
+        "target_coverage": 1.0,
+        "mean_candidates": 3686.0
+      }
+    ],
+    "head": [
+      {
+        "m": 0,
+        "target_coverage": 0.4132360604481501,
+        "mean_candidates": 67.66857738405419
+      },
+      {
+        "m": 1,
+        "target_coverage": 0.44971339239187075,
+        "mean_candidates": 108.87754038561751
+      },
+      {
+        "m": 2,
+        "target_coverage": 0.4820218863991662,
+        "mean_candidates": 223.80145909327774
+      },
+      {
+        "m": 3,
+        "target_coverage": 0.5977071391349661,
+        "mean_candidates": 688.9343408025013
+      },
+      {
+        "m": 4,
+        "target_coverage": 0.8368942157373632,
+        "mean_candidates": 2219.715476810839
+      },
+      {
+        "m": 5,
+        "target_coverage": 0.9963522668056279,
+        "mean_candidates": 3619.323606044815
+      },
+      {
+        "m": 6,
+        "target_coverage": 1.0,
+        "mean_candidates": 3686.0
+      }
+    ],
+    "tail": [
+      {
+        "m": 0,
+        "target_coverage": 0.09750297265160524,
+        "mean_candidates": 68.22294887039239
+      },
+      {
+        "m": 1,
+        "target_coverage": 0.14803804994054698,
+        "mean_candidates": 109.06242568370988
+      },
+      {
+        "m": 2,
+        "target_coverage": 0.22889417360285375,
+        "mean_candidates": 223.16944114149823
+      },
+      {
+        "m": 3,
+        "target_coverage": 0.415576694411415,
+        "mean_candidates": 689.5719381688466
+      },
+      {
+        "m": 4,
+        "target_coverage": 0.7633769322235434,
+        "mean_candidates": 2228.0196195005947
+      },
+      {
+        "m": 5,
+        "target_coverage": 0.9922711058263971,
+        "mean_candidates": 3622.746730083234
+      },
+      {
+        "m": 6,
+        "target_coverage": 1.0,
+        "mean_candidates": 3686.0
+      }
+    ]
+  },
+  "beam_reachability": {
+    "all": {
+      "potentially_reachable_per_depth": [
+        1.0,
+        0.9091109640414736,
+        0.6960070593425988,
+        0.5724685638649901,
+        0.5212883300242664,
+        0.5038605779836752
+      ]
+    },
+    "head": {
+      "potentially_reachable_per_depth": [
+        1.0,
+        0.9140177175612298,
+        0.7441375716519021,
+        0.651902032308494,
+        0.6122980719124544,
+        0.5977071391349661
+      ]
+    },
+    "tail": {
+      "potentially_reachable_per_depth": [
+        1.0,
+        0.9024970273483948,
+        0.6456599286563615,
+        0.49643281807372175,
+        0.4351961950059453,
+        0.415576694411415
+      ]
+    }
+  },
+  "exact_prefix_survival": {
+    "all": [
+      1.0,
+      0.49172733289212445,
+      0.3626737260092654,
+      0.30730200750055153,
+      0.2656077652768586,
+      0.2525921023604677
+    ],
+    "head": [
+      1.0,
+      0.6034392912975508,
+      0.49609171443460137,
+      0.4533611255862428,
+      0.4252214695153726,
+      0.4132360604481501
+    ],
+    "tail": [
+      1.0,
+      0.3751486325802616,
+      0.2318668252080856,
+      0.15873959571938168,
+      0.10760998810939358,
+      0.09750297265160524
+    ]
+  },
+  "mask_ceiling_cohorts": {
+    "all": {
+      "queries": 4533,
+      "hit_at200": 1518,
+      "pool_present_not_hit_at200": 766,
+      "pool_absent_for_every_mask_policy_max3": 2249
+    },
+    "head": {
+      "queries": 1919,
+      "hit_at200": 902,
+      "pool_present_not_hit_at200": 245,
+      "pool_absent_for_every_mask_policy_max3": 772
+    },
+    "tail": {
+      "queries": 1682,
+      "hit_at200": 343,
+      "pool_present_not_hit_at200": 356,
+      "pool_absent_for_every_mask_policy_max3": 983
+    }
+  },
+  "controls": {
+    "all": {
+      "exact_miss_queries": 3388,
+      "local_pool_recovery_among_exact_misses": 0.3361865407319953,
+      "same_size_random_expansion_expected_recovery": 0.1762448569751339,
+      "different_user_permutations": {
+        "local_equal_budget_expected_coverage": {
+          "mean": 0.3047696894852877,
+          "std_across20_permutations": 0.0008891458110472096
+        },
+        "shuffled_equal_budget_expected_coverage": {
+          "mean": 0.19018969500412414,
+          "std_across20_permutations": 0.0037152950185960934
+        },
+        "mean_shared_budget": {
+          "mean": 623.4129132231404,
+          "std_across20_permutations": 1.2600036608310672
+        }
+      }
+    },
+    "head": {
+      "exact_miss_queries": 1126,
+      "local_pool_recovery_among_exact_misses": 0.31438721136767317,
+      "same_size_random_expansion_expected_recovery": 0.1777721985087659,
+      "different_user_permutations": {
+        "local_equal_budget_expected_coverage": {
+          "mean": 0.2838779524849545,
+          "std_across20_permutations": 0.0012944208456018536
+        },
+        "shuffled_equal_budget_expected_coverage": {
+          "mean": 0.22030577157270814,
+          "std_across20_permutations": 0.006798256265242485
+        },
+        "mean_shared_budget": {
+          "mean": 624.7107904085258,
+          "std_across20_permutations": 1.738466475055958
+        }
+      }
+    },
+    "tail": {
+      "exact_miss_queries": 1518,
+      "local_pool_recovery_among_exact_misses": 0.35243741765480896,
+      "same_size_random_expansion_expected_recovery": 0.1744556130714689,
+      "different_user_permutations": {
+        "local_equal_budget_expected_coverage": {
+          "mean": 0.32014029764161356,
+          "std_across20_permutations": 0.0013705817459245613
+        },
+        "shuffled_equal_budget_expected_coverage": {
+          "mean": 0.18003568271238474,
+          "std_across20_permutations": 0.006477894935832425
+        },
+        "mean_shared_budget": {
+          "mean": 620.2622200263504,
+          "std_across20_permutations": 2.4429887146023095
+        }
+      }
+    }
+  },
+  "equal_budget_patterns": {
+    "all": {
+      "1": {
+        "mean_shared_budget": 70.47672622986984,
+        "min_expected_coverage": 0.23119418679901357,
+        "max_expected_coverage": 0.24994926806588605,
+        "pattern_expectations": {
+          "31": 0.23849439790920857,
+          "47": 0.23119418679901357,
+          "55": 0.23881227051287757,
+          "59": 0.2437377856622133,
+          "61": 0.24994926806588605,
+          "62": 0.24419678763436925
+        }
+      },
+      "2": {
+        "mean_shared_budget": 76.23031105228326,
+        "min_expected_coverage": 0.20692227283964804,
+        "max_expected_coverage": 0.24631882865074883,
+        "pattern_expectations": {
+          "15": 0.20892919529898663,
+          "23": 0.2179188200230665,
+          "27": 0.23504265960585163,
+          "29": 0.23297538751093003,
+          "30": 0.2245449155804088,
+          "39": 0.20692227283964804,
+          "43": 0.22450137981709375,
+          "45": 0.21750779299592946,
+          "46": 0.2129982861312851,
+          "51": 0.2341720691295107,
+          "53": 0.224346340365054,
+          "54": 0.2318611670378703,
+          "57": 0.24631882865074883,
+          "58": 0.24215700713393412,
+          "60": 0.24157160282470683
+        }
+      },
+      "3": {
+        "mean_shared_budget": 106.16280608868298,
+        "min_expected_coverage": 0.19823024886966714,
+        "max_expected_coverage": 0.2488605989090071,
+        "pattern_expectations": {
+          "7": 0.19823024886966714,
+          "11": 0.22701378219080143,
+          "13": 0.21181543693813562,
+          "14": 0.2131402151682769,
+          "19": 0.23300748433424037,
+          "21": 0.20793792207684336,
+          "22": 0.2180508244014783,
+          "25": 0.24019350296397446,
+          "26": 0.23661321540345978,
+          "28": 0.21942814772309782,
+          "35": 0.21597137625394022,
+          "37": 0.20244777093245922,
+          "38": 0.2085141748816136,
+          "41": 0.23187374753453496,
+          "42": 0.23029029161943274,
+          "44": 0.22010259423178688,
+          "49": 0.21893389734745528,
+          "50": 0.2488605989090071,
+          "52": 0.23038440011220293,
+          "56": 0.24397808654124054
+        }
+      }
+    },
+    "head": {
+      "1": {
+        "mean_shared_budget": 68.9567483064096,
+        "min_expected_coverage": 0.3667024066973192,
+        "max_expected_coverage": 0.4037578441798292,
+        "pattern_expectations": {
+          "31": 0.38355411812091067,
+          "47": 0.3667024066973192,
+          "55": 0.38558623508416323,
+          "59": 0.3911884218146948,
+          "61": 0.4037578441798292,
+          "62": 0.39420850764804566
+        }
+      },
+      "2": {
+        "mean_shared_budget": 74.69828035435123,
+        "min_expected_coverage": 0.31771185113440215,
+        "max_expected_coverage": 0.3856844668989668,
+        "pattern_expectations": {
+          "15": 0.3192682732835769,
+          "23": 0.34190015007222024,
+          "27": 0.36774543771660273,
+          "29": 0.3639706716525606,
+          "30": 0.3555282209719835,
+          "39": 0.31771185113440215,
+          "43": 0.34456296667453395,
+          "45": 0.33783034668460665,
+          "46": 0.3308171179951904,
+          "51": 0.3667583055008341,
+          "53": 0.357769849288695,
+          "54": 0.3660712240322007,
+          "57": 0.3856844668989668,
+          "58": 0.3805413877841791,
+          "60": 0.38416112873137054
+        }
+      },
+      "3": {
+        "mean_shared_budget": 104.46586763939551,
+        "min_expected_coverage": 0.28423127297576717,
+        "max_expected_coverage": 0.37281405926329736,
+        "pattern_expectations": {
+          "7": 0.28423127297576717,
+          "11": 0.3225748117167073,
+          "13": 0.29926121658472116,
+          "14": 0.30929963299945357,
+          "19": 0.34589176459276094,
+          "21": 0.3149642924036696,
+          "22": 0.3297561573447367,
+          "25": 0.35367990973896346,
+          "26": 0.3539289726685221,
+          "28": 0.32591379624411365,
+          "35": 0.31050452203229767,
+          "37": 0.30284221756660784,
+          "38": 0.30642849954081197,
+          "41": 0.3404881653069157,
+          "42": 0.33396485313220065,
+          "44": 0.32986411078378025,
+          "49": 0.33097595723927675,
+          "50": 0.37281405926329736,
+          "52": 0.3599123456874647,
+          "56": 0.36488332109924987
+        }
+      }
+    },
+    "tail": {
+      "1": {
+        "mean_shared_budget": 69.45659928656362,
+        "min_expected_coverage": 0.09666049190583469,
+        "max_expected_coverage": 0.10422065341370622,
+        "pattern_expectations": {
+          "31": 0.09666049190583469,
+          "47": 0.0999929287077948,
+          "55": 0.0973515853099629,
+          "59": 0.09962316192173663,
+          "61": 0.10422065341370622,
+          "62": 0.09785892827830493
+        }
+      },
+      "2": {
+        "mean_shared_budget": 75.11414982164091,
+        "min_expected_coverage": 0.09723035395983716,
+        "max_expected_coverage": 0.11133361513315945,
+        "pattern_expectations": {
+          "15": 0.10040698665485735,
+          "23": 0.09726632314077745,
+          "27": 0.10215240786467161,
+          "29": 0.10631927354308505,
+          "30": 0.09723035395983716,
+          "39": 0.10031585392537223,
+          "43": 0.10576713615010934,
+          "45": 0.10159933908642439,
+          "46": 0.10038003739025261,
+          "51": 0.10402391392087658,
+          "53": 0.09844921758948276,
+          "54": 0.10072554691782068,
+          "57": 0.11133361513315945,
+          "58": 0.10623620357137814,
+          "60": 0.10561917627523197
+        }
+      },
+      "3": {
+        "mean_shared_budget": 104.9922711058264,
+        "min_expected_coverage": 0.10616945725475489,
+        "max_expected_coverage": 0.13040860970099205,
+        "pattern_expectations": {
+          "7": 0.1151457624614838,
+          "11": 0.12558466835095478,
+          "13": 0.12301831378685013,
+          "14": 0.11834409416905234,
+          "19": 0.11684256557052268,
+          "21": 0.10787322800087179,
+          "22": 0.11015272368033463,
+          "25": 0.12572959727870917,
+          "26": 0.12046266840277013,
+          "28": 0.11756019997327731,
+          "35": 0.12142061694001843,
+          "37": 0.10616945725475489,
+          "38": 0.11500928316271182,
+          "41": 0.12153720957040781,
+          "42": 0.13040860970099205,
+          "44": 0.11594221678233016,
+          "49": 0.10995154719672622,
+          "50": 0.12350032454284501,
+          "52": 0.10890983740361727,
+          "56": 0.12578279873405981
+        }
+      }
+    }
+  },
+  "mask3_item_evaluation": {
+    "metrics": {
+      "all": {
+        "samples": 4533,
+        "Recall@5": 0.10015442311934701,
+        "NDCG@5": 0.07385283543668318,
+        "Recall@10": 0.12795058460180897,
+        "NDCG@10": 0.08301092434918993,
+        "Recall@20": 0.1511140525038606,
+        "NDCG@20": 0.08885368859004732,
+        "Recall@50": 0.20957423339951467,
+        "NDCG@50": 0.10025980853355755,
+        "Recall@100": 0.2669313920141187,
+        "NDCG@100": 0.10953626874470904,
+        "Recall@200": 0.33487756452680345,
+        "NDCG@200": 0.11903236926274835
+      },
+      "head": {
+        "samples": 1919,
+        "Recall@5": 0.1995831162063575,
+        "NDCG@5": 0.15188782155094005,
+        "Recall@10": 0.23553934340802501,
+        "NDCG@10": 0.16382609657248828,
+        "Recall@20": 0.26732673267326734,
+        "NDCG@20": 0.1718311784480693,
+        "Recall@50": 0.3559145388223033,
+        "NDCG@50": 0.1892419849248855,
+        "Recall@100": 0.416362688900469,
+        "NDCG@100": 0.19902661344776024,
+        "Recall@200": 0.4700364773319437,
+        "NDCG@200": 0.2065577608660827
+      },
+      "tail": {
+        "samples": 1682,
+        "Recall@5": 0.021997621878715814,
+        "NDCG@5": 0.013329780128521743,
+        "Recall@10": 0.03151010701545779,
+        "NDCG@10": 0.016423504747010407,
+        "Recall@20": 0.04399524375743163,
+        "NDCG@20": 0.01957235349150703,
+        "Recall@50": 0.07074910820451843,
+        "NDCG@50": 0.024635980210710947,
+        "Recall@100": 0.12901307966706302,
+        "NDCG@100": 0.03402634127617017,
+        "Recall@200": 0.20392390011890607,
+        "NDCG@200": 0.044467853421755195
+      },
+      "middle": {
+        "samples": 776,
+        "Recall@5": 0.041237113402061855,
+        "NDCG@5": 0.025799136837513476,
+        "Recall@10": 0.09020618556701031,
+        "NDCG@10": 0.0418777377530147,
+        "Recall@20": 0.11984536082474227,
+        "NDCG@20": 0.049386931820441654,
+        "Recall@50": 0.18427835051546393,
+        "NDCG@50": 0.06198433379624139,
+        "Recall@100": 0.23067010309278352,
+        "NDCG@100": 0.06956986760938529,
+        "Recall@200": 0.30541237113402064,
+        "NDCG@200": 0.07999446209602928
+      },
+      "zero": {
+        "samples": 156,
+        "Recall@5": 0.01282051282051282,
+        "NDCG@5": 0.00552149433427427,
+        "Recall@10": 0.03205128205128205,
+        "NDCG@10": 0.011440905586294799,
+        "Recall@20": 0.03205128205128205,
+        "NDCG@20": 0.011440905586294799,
+        "Recall@50": 0.03205128205128205,
+        "NDCG@50": 0.011440905586294799,
+        "Recall@100": 0.09615384615384616,
+        "NDCG@100": 0.021649434116108302,
+        "Recall@200": 0.23076923076923078,
+        "NDCG@200": 0.04050483797509405
+      }
+    },
+    "coverage": {
+      "all": {
+        "5": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.10015442311934701,
+          "NDCG": 0.07385283543668318,
+          "exposed_unique_items": 930,
+          "exposure_catalogue_coverage": 0.2523060227889311,
+          "hit_unique_items": 119,
+          "effective_hit_coverage": 0.06819484240687679,
+          "item_macro_recall": 0.04374089649977721,
+          "item_macro_ndcg": 0.028940700835384123,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 204.89253740022625,
+          "user_hit_coverage": 0.13940613990941117
+        },
+        "10": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.12795058460180897,
+          "NDCG": 0.08301092434918993,
+          "exposed_unique_items": 1204,
+          "exposure_catalogue_coverage": 0.32664134563212155,
+          "hit_unique_items": 164,
+          "effective_hit_coverage": 0.09398280802292264,
+          "item_macro_recall": 0.05910372618670819,
+          "item_macro_ndcg": 0.03392974746248724,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 302.80979071817103,
+          "user_hit_coverage": 0.17060895822848515
+        },
+        "20": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.1511140525038606,
+          "NDCG": 0.08885368859004732,
+          "exposed_unique_items": 1539,
+          "exposure_catalogue_coverage": 0.4175257731958763,
+          "hit_unique_items": 209,
+          "effective_hit_coverage": 0.11977077363896849,
+          "item_macro_recall": 0.07936833406016303,
+          "item_macro_ndcg": 0.03901290901342767,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 412.4187187546065,
+          "user_hit_coverage": 0.2008052340211374
+        },
+        "50": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.20957423339951467,
+          "NDCG": 0.10025980853355755,
+          "exposed_unique_items": 2353,
+          "exposure_catalogue_coverage": 0.6383613673358655,
+          "hit_unique_items": 295,
+          "effective_hit_coverage": 0.16905444126074498,
+          "item_macro_recall": 0.11306298517012095,
+          "item_macro_ndcg": 0.0455736316894681,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 684.1397077530022,
+          "user_hit_coverage": 0.2652239557121288
+        },
+        "100": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.2669313920141187,
+          "NDCG": 0.10953626874470904,
+          "exposed_unique_items": 3031,
+          "exposure_catalogue_coverage": 0.8223005968529571,
+          "hit_unique_items": 400,
+          "effective_hit_coverage": 0.22922636103151864,
+          "item_macro_recall": 0.15707911249356873,
+          "item_macro_ndcg": 0.05269458958673994,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 1088.159218000483,
+          "user_hit_coverage": 0.3286361348766985
+        },
+        "200": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.33487756452680345,
+          "NDCG": 0.11903236926274835,
+          "exposed_unique_items": 3586,
+          "exposure_catalogue_coverage": 0.9728703201302225,
+          "hit_unique_items": 516,
+          "effective_hit_coverage": 0.295702005730659,
+          "item_macro_recall": 0.21322114904390274,
+          "item_macro_ndcg": 0.06048214249139148,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 1635.0608487578577,
+          "user_hit_coverage": 0.3980875691997987
+        }
+      },
+      "head": {
+        "5": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.1995831162063575,
+          "NDCG": 0.15188782155094005,
+          "exposed_unique_items": 488,
+          "exposure_catalogue_coverage": 0.6437994722955145,
+          "hit_unique_items": 81,
+          "effective_hit_coverage": 0.17419354838709677,
+          "item_macro_recall": 0.11063463606757326,
+          "item_macro_ndcg": 0.07592098419017748,
+          "exposure_share": 0.7283476726229869,
+          "effective_exposure_items": 118.62258150664043,
+          "user_hit_coverage": 0.2131294964028777
+        },
+        "10": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.23553934340802501,
+          "NDCG": 0.16382609657248828,
+          "exposed_unique_items": 572,
+          "exposure_catalogue_coverage": 0.7546174142480211,
+          "hit_unique_items": 103,
+          "effective_hit_coverage": 0.221505376344086,
+          "item_macro_recall": 0.13061648062050765,
+          "item_macro_ndcg": 0.08248258012104524,
+          "exposure_share": 0.6614824619457313,
+          "effective_exposure_items": 159.99414175663676,
+          "user_hit_coverage": 0.25
+        },
+        "20": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.26732673267326734,
+          "NDCG": 0.1718311784480693,
+          "exposed_unique_items": 663,
+          "exposure_catalogue_coverage": 0.8746701846965699,
+          "hit_unique_items": 124,
+          "effective_hit_coverage": 0.26666666666666666,
+          "item_macro_recall": 0.1613357104884732,
+          "item_macro_ndcg": 0.09011014696008238,
+          "exposure_share": 0.5898963159055813,
+          "effective_exposure_items": 209.80633202193548,
+          "user_hit_coverage": 0.2886690647482014
+        },
+        "50": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.3559145388223033,
+          "NDCG": 0.1892419849248855,
+          "exposed_unique_items": 718,
+          "exposure_catalogue_coverage": 0.9472295514511874,
+          "hit_unique_items": 169,
+          "effective_hit_coverage": 0.3634408602150538,
+          "item_macro_recall": 0.22319952516553226,
+          "item_macro_ndcg": 0.10249562583075969,
+          "exposure_share": 0.5124288550628723,
+          "effective_exposure_items": 282.39736766596593,
+          "user_hit_coverage": 0.3732014388489209
+        },
+        "100": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.416362688900469,
+          "NDCG": 0.19902661344776024,
+          "exposed_unique_items": 737,
+          "exposure_catalogue_coverage": 0.9722955145118733,
+          "hit_unique_items": 190,
+          "effective_hit_coverage": 0.40860215053763443,
+          "item_macro_recall": 0.2616695480684029,
+          "item_macro_ndcg": 0.10874704476241852,
+          "exposure_share": 0.3973836311493492,
+          "effective_exposure_items": 319.96515494408783,
+          "user_hit_coverage": 0.4379496402877698
+        },
+        "200": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.4700364773319437,
+          "NDCG": 0.2065577608660827,
+          "exposed_unique_items": 753,
+          "exposure_catalogue_coverage": 0.9934036939313984,
+          "hit_unique_items": 208,
+          "effective_hit_coverage": 0.44731182795698926,
+          "item_macro_recall": 0.29670407495957746,
+          "item_macro_ndcg": 0.11361750675173872,
+          "exposure_share": 0.3037260092653872,
+          "effective_exposure_items": 394.20553244443124,
+          "user_hit_coverage": 0.49280575539568344
+        }
+      },
+      "tail": {
+        "5": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.021997621878715814,
+          "NDCG": 0.013329780128521743,
+          "exposed_unique_items": 226,
+          "exposure_catalogue_coverage": 0.11402623612512613,
+          "hit_unique_items": 20,
+          "effective_hit_coverage": 0.022909507445589918,
+          "item_macro_recall": 0.015014614685784255,
+          "item_macro_ndcg": 0.008937048970335943,
+          "exposure_share": 0.15812927421133907,
+          "effective_exposure_items": 51.29220231774865,
+          "user_hit_coverage": 0.030168589174800354
+        },
+        "10": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.03151010701545779,
+          "NDCG": 0.016423504747010407,
+          "exposed_unique_items": 335,
+          "exposure_catalogue_coverage": 0.16902119071644803,
+          "hit_unique_items": 32,
+          "effective_hit_coverage": 0.03665521191294387,
+          "item_macro_recall": 0.026060270061336537,
+          "item_macro_ndcg": 0.012547718595086724,
+          "exposure_share": 0.17893227443194354,
+          "effective_exposure_items": 92.32313105350012,
+          "user_hit_coverage": 0.0417036379769299
+        },
+        "20": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.04399524375743163,
+          "NDCG": 0.01957235349150703,
+          "exposed_unique_items": 458,
+          "exposure_catalogue_coverage": 0.23107971745711403,
+          "hit_unique_items": 43,
+          "effective_hit_coverage": 0.049255441008018326,
+          "item_macro_recall": 0.03673491555645839,
+          "item_macro_ndcg": 0.01520588300773031,
+          "exposure_share": 0.19189278623428194,
+          "effective_exposure_items": 128.24528209026857,
+          "user_hit_coverage": 0.05323868677905945
+        },
+        "50": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.07074910820451843,
+          "NDCG": 0.024635980210710947,
+          "exposed_unique_items": 969,
+          "exposure_catalogue_coverage": 0.48890010090817354,
+          "hit_unique_items": 68,
+          "effective_hit_coverage": 0.07789232531500573,
+          "item_macro_recall": 0.0581882993483894,
+          "item_macro_ndcg": 0.01927545059178958,
+          "exposure_share": 0.25179351422898744,
+          "effective_exposure_items": 270.4439880675893,
+          "user_hit_coverage": 0.08429458740017746
+        },
+        "100": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.12901307966706302,
+          "NDCG": 0.03402634127617017,
+          "exposed_unique_items": 1500,
+          "exposure_catalogue_coverage": 0.756811301715439,
+          "hit_unique_items": 133,
+          "effective_hit_coverage": 0.15234822451317298,
+          "item_macro_recall": 0.10895347854999472,
+          "item_macro_ndcg": 0.02747570237057762,
+          "exposure_share": 0.35408338848444737,
+          "effective_exposure_items": 533.7063424930262,
+          "user_hit_coverage": 0.14906832298136646
+        },
+        "200": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.20392390011890607,
+          "NDCG": 0.044467853421755195,
+          "exposed_unique_items": 1912,
+          "exposure_catalogue_coverage": 0.9646821392532795,
+          "hit_unique_items": 196,
+          "effective_hit_coverage": 0.22451317296678122,
+          "item_macro_recall": 0.17039706934540444,
+          "item_macro_ndcg": 0.035980244083042234,
+          "exposure_share": 0.43676704169424224,
+          "effective_exposure_items": 845.3210247006147,
+          "user_hit_coverage": 0.22271517302573204
+        }
+      }
+    },
+    "mean_returned_items": 200.0
+  },
+  "exact_item_evaluation": {
+    "metrics": {
+      "all": {
+        "samples": 4533,
+        "Recall@5": 0.10015442311934701,
+        "NDCG@5": 0.07385283543668318,
+        "Recall@10": 0.12795058460180897,
+        "NDCG@10": 0.08301092434918993,
+        "Recall@20": 0.1511140525038606,
+        "NDCG@20": 0.08885368859004732,
+        "Recall@50": 0.20494153981910435,
+        "NDCG@50": 0.09941047612367625,
+        "Recall@100": 0.23891462607544672,
+        "NDCG@100": 0.10492509613028128,
+        "Recall@200": 0.2525921023604677,
+        "NDCG@200": 0.10692105899884397
+      },
+      "head": {
+        "samples": 1919,
+        "Recall@5": 0.1995831162063575,
+        "NDCG@5": 0.15188782155094005,
+        "Recall@10": 0.23553934340802501,
+        "NDCG@10": 0.16382609657248828,
+        "Recall@20": 0.26732673267326734,
+        "NDCG@20": 0.1718311784480693,
+        "Recall@50": 0.3538301198540907,
+        "NDCG@50": 0.18886260530504576,
+        "Recall@100": 0.3986451276706618,
+        "NDCG@100": 0.19611763120023293,
+        "Recall@200": 0.4132360604481501,
+        "NDCG@200": 0.19824752261920892
+      },
+      "tail": {
+        "samples": 1682,
+        "Recall@5": 0.021997621878715814,
+        "NDCG@5": 0.013329780128521743,
+        "Recall@10": 0.03151010701545779,
+        "NDCG@10": 0.016423504747010407,
+        "Recall@20": 0.04399524375743163,
+        "NDCG@20": 0.01957235349150703,
+        "Recall@50": 0.06361474435196195,
+        "NDCG@50": 0.023316952292259673,
+        "Recall@100": 0.08620689655172414,
+        "NDCG@100": 0.02699685884115662,
+        "Recall@200": 0.09750297265160524,
+        "NDCG@200": 0.028649088229660818
+      },
+      "middle": {
+        "samples": 776,
+        "Recall@5": 0.041237113402061855,
+        "NDCG@5": 0.025799136837513476,
+        "Recall@10": 0.09020618556701031,
+        "NDCG@10": 0.0418777377530147,
+        "Recall@20": 0.11984536082474227,
+        "NDCG@20": 0.049386931820441654,
+        "Recall@50": 0.17783505154639176,
+        "NDCG@50": 0.06082017224381302,
+        "Recall@100": 0.20618556701030927,
+        "NDCG@100": 0.065486032033474,
+        "Recall@200": 0.22036082474226804,
+        "NDCG@200": 0.0675458710094152
+      },
+      "zero": {
+        "samples": 156,
+        "Recall@5": 0.01282051282051282,
+        "NDCG@5": 0.00552149433427427,
+        "Recall@10": 0.03205128205128205,
+        "NDCG@10": 0.011440905586294799,
+        "Recall@20": 0.03205128205128205,
+        "NDCG@20": 0.011440905586294799,
+        "Recall@50": 0.03205128205128205,
+        "NDCG@50": 0.011440905586294799,
+        "Recall@100": 0.08333333333333333,
+        "NDCG@100": 0.019550314464851004,
+        "Recall@200": 0.10897435897435898,
+        "NDCG@200": 0.023287193781423226
+      }
+    },
+    "coverage": {
+      "all": {
+        "5": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.10015442311934701,
+          "NDCG": 0.07385283543668318,
+          "exposed_unique_items": 930,
+          "exposure_catalogue_coverage": 0.2523060227889311,
+          "hit_unique_items": 119,
+          "effective_hit_coverage": 0.06819484240687679,
+          "item_macro_recall": 0.04374089649977721,
+          "item_macro_ndcg": 0.028940700835384123,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 204.89253740022625,
+          "user_hit_coverage": 0.13940613990941117
+        },
+        "10": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.12795058460180897,
+          "NDCG": 0.08301092434918993,
+          "exposed_unique_items": 1204,
+          "exposure_catalogue_coverage": 0.32664134563212155,
+          "hit_unique_items": 164,
+          "effective_hit_coverage": 0.09398280802292264,
+          "item_macro_recall": 0.05910372618670819,
+          "item_macro_ndcg": 0.03392974746248724,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 302.80979071817103,
+          "user_hit_coverage": 0.17060895822848515
+        },
+        "20": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.1511140525038606,
+          "NDCG": 0.08885368859004732,
+          "exposed_unique_items": 1539,
+          "exposure_catalogue_coverage": 0.4175257731958763,
+          "hit_unique_items": 209,
+          "effective_hit_coverage": 0.11977077363896849,
+          "item_macro_recall": 0.07936833406016303,
+          "item_macro_ndcg": 0.03901290901342767,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 412.4187187546065,
+          "user_hit_coverage": 0.2008052340211374
+        },
+        "50": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.20494153981910435,
+          "NDCG": 0.09941047612367625,
+          "exposed_unique_items": 2027,
+          "exposure_catalogue_coverage": 0.5499186109603906,
+          "hit_unique_items": 279,
+          "effective_hit_coverage": 0.15988538681948425,
+          "item_macro_recall": 0.10645226065108696,
+          "item_macro_ndcg": 0.04435862627054431,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 564.8231281789634,
+          "user_hit_coverage": 0.2601912430800201
+        },
+        "100": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.23891462607544672,
+          "NDCG": 0.10492509613028128,
+          "exposed_unique_items": 2100,
+          "exposure_catalogue_coverage": 0.5697232772653282,
+          "hit_unique_items": 310,
+          "effective_hit_coverage": 0.17765042979942694,
+          "item_macro_recall": 0.12031792825312043,
+          "item_macro_ndcg": 0.04661244748866618,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 577.3756060853618,
+          "user_hit_coverage": 0.28938097634625065
+        },
+        "200": {
+          "samples": 4533,
+          "catalogue_items": 3686,
+          "observed_target_items": 1745,
+          "Recall": 0.2525921023604677,
+          "NDCG": 0.10692105899884397,
+          "exposed_unique_items": 2116,
+          "exposure_catalogue_coverage": 0.5740640260444927,
+          "hit_unique_items": 320,
+          "effective_hit_coverage": 0.1833810888252149,
+          "item_macro_recall": 0.12755632443590095,
+          "item_macro_ndcg": 0.0476667795600347,
+          "exposure_share": 1.0,
+          "effective_exposure_items": 576.7718929132461,
+          "user_hit_coverage": 0.303472571716155
+        }
+      },
+      "head": {
+        "5": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.1995831162063575,
+          "NDCG": 0.15188782155094005,
+          "exposed_unique_items": 488,
+          "exposure_catalogue_coverage": 0.6437994722955145,
+          "hit_unique_items": 81,
+          "effective_hit_coverage": 0.17419354838709677,
+          "item_macro_recall": 0.11063463606757326,
+          "item_macro_ndcg": 0.07592098419017748,
+          "exposure_share": 0.7283476726229869,
+          "effective_exposure_items": 118.62258150664043,
+          "user_hit_coverage": 0.2131294964028777
+        },
+        "10": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.23553934340802501,
+          "NDCG": 0.16382609657248828,
+          "exposed_unique_items": 572,
+          "exposure_catalogue_coverage": 0.7546174142480211,
+          "hit_unique_items": 103,
+          "effective_hit_coverage": 0.221505376344086,
+          "item_macro_recall": 0.13061648062050765,
+          "item_macro_ndcg": 0.08248258012104524,
+          "exposure_share": 0.6614824619457313,
+          "effective_exposure_items": 159.99414175663676,
+          "user_hit_coverage": 0.25
+        },
+        "20": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.26732673267326734,
+          "NDCG": 0.1718311784480693,
+          "exposed_unique_items": 663,
+          "exposure_catalogue_coverage": 0.8746701846965699,
+          "hit_unique_items": 124,
+          "effective_hit_coverage": 0.26666666666666666,
+          "item_macro_recall": 0.1613357104884732,
+          "item_macro_ndcg": 0.09011014696008238,
+          "exposure_share": 0.5898963159055813,
+          "effective_exposure_items": 209.80633202193548,
+          "user_hit_coverage": 0.2886690647482014
+        },
+        "50": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.3538301198540907,
+          "NDCG": 0.18886260530504576,
+          "exposed_unique_items": 712,
+          "exposure_catalogue_coverage": 0.9393139841688655,
+          "hit_unique_items": 167,
+          "effective_hit_coverage": 0.35913978494623655,
+          "item_macro_recall": 0.22051135312252151,
+          "item_macro_ndcg": 0.10199473881243125,
+          "exposure_share": 0.5462344997410516,
+          "effective_exposure_items": 269.0763876809622,
+          "user_hit_coverage": 0.37050359712230213
+        },
+        "100": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.3986451276706618,
+          "NDCG": 0.19611763120023293,
+          "exposed_unique_items": 724,
+          "exposure_catalogue_coverage": 0.9551451187335093,
+          "hit_unique_items": 176,
+          "effective_hit_coverage": 0.37849462365591396,
+          "item_macro_recall": 0.23916260867691347,
+          "item_macro_ndcg": 0.10501702038657207,
+          "exposure_share": 0.5057215884651071,
+          "effective_exposure_items": 265.0670409038302,
+          "user_hit_coverage": 0.4136690647482014
+        },
+        "200": {
+          "samples": 1919,
+          "catalogue_items": 758,
+          "observed_target_items": 465,
+          "Recall": 0.4132360604481501,
+          "NDCG": 0.19824752261920892,
+          "exposed_unique_items": 724,
+          "exposure_catalogue_coverage": 0.9551451187335093,
+          "hit_unique_items": 178,
+          "effective_hit_coverage": 0.3827956989247312,
+          "item_macro_recall": 0.24490935083860332,
+          "item_macro_ndcg": 0.10585494101799861,
+          "exposure_share": 0.48258035728514287,
+          "effective_exposure_items": 263.76222279905085,
+          "user_hit_coverage": 0.42985611510791366
+        }
+      },
+      "tail": {
+        "5": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.021997621878715814,
+          "NDCG": 0.013329780128521743,
+          "exposed_unique_items": 226,
+          "exposure_catalogue_coverage": 0.11402623612512613,
+          "hit_unique_items": 20,
+          "effective_hit_coverage": 0.022909507445589918,
+          "item_macro_recall": 0.015014614685784255,
+          "item_macro_ndcg": 0.008937048970335943,
+          "exposure_share": 0.15812927421133907,
+          "effective_exposure_items": 51.29220231774865,
+          "user_hit_coverage": 0.030168589174800354
+        },
+        "10": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.03151010701545779,
+          "NDCG": 0.016423504747010407,
+          "exposed_unique_items": 335,
+          "exposure_catalogue_coverage": 0.16902119071644803,
+          "hit_unique_items": 32,
+          "effective_hit_coverage": 0.03665521191294387,
+          "item_macro_recall": 0.026060270061336537,
+          "item_macro_ndcg": 0.012547718595086724,
+          "exposure_share": 0.17893227443194354,
+          "effective_exposure_items": 92.32313105350012,
+          "user_hit_coverage": 0.0417036379769299
+        },
+        "20": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.04399524375743163,
+          "NDCG": 0.01957235349150703,
+          "exposed_unique_items": 458,
+          "exposure_catalogue_coverage": 0.23107971745711403,
+          "hit_unique_items": 43,
+          "effective_hit_coverage": 0.049255441008018326,
+          "item_macro_recall": 0.03673491555645839,
+          "item_macro_ndcg": 0.01520588300773031,
+          "exposure_share": 0.19189278623428194,
+          "effective_exposure_items": 128.24528209026857,
+          "user_hit_coverage": 0.05323868677905945
+        },
+        "50": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.06361474435196195,
+          "NDCG": 0.023316952292259673,
+          "exposed_unique_items": 704,
+          "exposure_catalogue_coverage": 0.35519677093844604,
+          "hit_unique_items": 59,
+          "effective_hit_coverage": 0.06758304696449026,
+          "item_macro_recall": 0.05003360562668537,
+          "item_macro_ndcg": 0.017770039518770674,
+          "exposure_share": 0.2239366016201374,
+          "effective_exposure_items": 181.67713105046815,
+          "user_hit_coverage": 0.0771960958296362
+        },
+        "100": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.08620689655172414,
+          "NDCG": 0.02699685884115662,
+          "exposed_unique_items": 741,
+          "exposure_catalogue_coverage": 0.3738647830474268,
+          "hit_unique_items": 75,
+          "effective_hit_coverage": 0.0859106529209622,
+          "item_macro_recall": 0.061798984831927126,
+          "item_macro_ndcg": 0.019701261258454866,
+          "exposure_share": 0.2655286292716395,
+          "effective_exposure_items": 184.15946451416113,
+          "user_hit_coverage": 0.09849157054125998
+        },
+        "200": {
+          "samples": 1682,
+          "catalogue_items": 1982,
+          "observed_target_items": 873,
+          "Recall": 0.09750297265160524,
+          "NDCG": 0.028649088229660818,
+          "exposed_unique_items": 749,
+          "exposure_catalogue_coverage": 0.37790110998990917,
+          "hit_unique_items": 80,
+          "effective_hit_coverage": 0.09163802978235967,
+          "item_macro_recall": 0.06835869087616925,
+          "item_macro_ndcg": 0.020662284785420468,
+          "exposure_share": 0.28648786473522336,
+          "effective_exposure_items": 181.02203786430115,
+          "user_hit_coverage": 0.11002661934338953
+        }
+      }
+    },
+    "mean_returned_items": 69.21575115817339
+  },
+  "seconds": 62.34931295799999
+}

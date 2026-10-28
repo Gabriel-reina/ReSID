@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "shared_numeric_fields_checked": 1890,
+  "mismatches": [],
+  "scope": "Shared catalogue/position/subset/radius/beam-bound/control numeric fields; extra diagnostic fields are not presented as full-schema equality",
+  "fresh_source_preservation": true
+}

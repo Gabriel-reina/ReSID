@@ -1,0 +1,4 @@
+-r requirements.txt
+# Needed only to train the classic RQ-VAE / Ghost tokenizer from scratch.
+scikit-learn==1.6.1
+k-means-constrained==0.7.3

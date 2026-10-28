@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "original_workspace_required": false,
+  "imports_from_relocated_copy": true,
+  "office_replay_queries": 128,
+  "identical_item_lists": true
+}

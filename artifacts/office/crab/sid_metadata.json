@@ -1,0 +1,21 @@
+{
+  "method": "CRAB core-mechanism port",
+  "base": "TIGER-style completed RQ-VAE three semantic codes plus collision suffix",
+  "split_ratio": 0.1,
+  "M_max": 3,
+  "gamma": 0.2,
+  "geometry": "Exact residuals from frozen selected TIGER tokenizer",
+  "balance_lambda": "Paper leaves lambda unspecified: prespecified geometry_total_distortion / TRAIN_parent_frequency^2, normalized equal relative balance/distortion scale; no tuning",
+  "split_scope": "all three semantic RQ layers; ordinal collision suffix held unchanged; conditional parent-child frequency Eq8 and indivisible child groups",
+  "post_training": "10epochs attention-only LoRA rank8 alpha16 plus SID embeddings/output heads; minimum validationNLL; no semantic guidance/prior/mask",
+  "splits": 30,
+  "items": 3459,
+  "unique_sids": 3459,
+  "extra_collision_rate": 0.0,
+  "collision_participation_rate": 0.0,
+  "max_aliases": 1,
+  "length_histogram": {
+    "4": 3459
+  },
+  "EOS": 286
+}

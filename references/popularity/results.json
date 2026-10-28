@@ -1,0 +1,54 @@
+{
+  "industrial": {
+    "head": {
+      "catalogue_items": 758,
+      "item_share": 0.20564297341291374,
+      "train_targets": 20473,
+      "train_target_share": 0.5646322292396371
+    },
+    "tail": {
+      "catalogue_items": 1982,
+      "item_share": 0.5377102550189907,
+      "train_targets": 8135,
+      "train_target_share": 0.2243580904051408
+    },
+    "middle": {
+      "catalogue_items": 896,
+      "item_share": 0.24308193163320674,
+      "train_targets": 7651,
+      "train_target_share": 0.21100968035522216
+    },
+    "zero": {
+      "catalogue_items": 50,
+      "item_share": 0.013564839934888768,
+      "train_targets": 0,
+      "train_target_share": 0.0
+    }
+  },
+  "office": {
+    "head": {
+      "catalogue_items": 784,
+      "item_share": 0.22665510263081814,
+      "train_targets": 24342,
+      "train_target_share": 0.6253725208097831
+    },
+    "tail": {
+      "catalogue_items": 1875,
+      "item_share": 0.5420641803989592,
+      "train_targets": 7864,
+      "train_target_share": 0.202034734354126
+    },
+    "middle": {
+      "catalogue_items": 778,
+      "item_share": 0.2249204972535415,
+      "train_targets": 6718,
+      "train_target_share": 0.17259274483609086
+    },
+    "zero": {
+      "catalogue_items": 22,
+      "item_share": 0.006360219716681122,
+      "train_targets": 0,
+      "train_target_share": 0.0
+    }
+  }
+}

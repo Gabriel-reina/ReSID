@@ -1,0 +1,175 @@
+{
+  "seed": 42,
+  "datasets": {
+    "industrial": {
+      "items": 3686,
+      "embedding_dim": 2560,
+      "splits": {
+        "train": 36259,
+        "valid": 4532,
+        "test": 4533
+      },
+      "methods": {
+        "ours": {
+          "artifact": "artifacts/industrial/ours",
+          "beam": 20,
+          "eos": null,
+          "prior_strength": 0.5,
+          "semantic_strength": 0.4,
+          "max_mask": 3,
+          "decoding": "guided_fixed"
+        },
+        "rqvae": {
+          "artifact": "artifacts/industrial/rqvae",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "tiger": {
+          "artifact": "artifacts/industrial/tiger",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "onerec": {
+          "artifact": "artifacts/industrial/onerec",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "crab": {
+          "artifact": "artifacts/industrial/crab",
+          "beam": 200,
+          "eos": 270,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "ghost": {
+          "artifact": "artifacts/industrial/ghost",
+          "beam": 200,
+          "eos": 264,
+          "decoding": "length_normalized",
+          "length_penalty": 1
+        },
+        "sa2crq": {
+          "artifact": "artifacts/industrial/sa2crq",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "length_normalized",
+          "length_penalty": 1
+        }
+      },
+      "representations": {
+        "parallel6x16": "ours",
+        "serial3x256": "artifacts/industrial/representations/serial3x256",
+        "parallel3x256": "artifacts/industrial/representations/parallel3x256",
+        "serial6x16": "artifacts/industrial/representations/serial6x16"
+      }
+    },
+    "office": {
+      "items": 3459,
+      "embedding_dim": 2560,
+      "splits": {
+        "train": 38924,
+        "valid": 4866,
+        "test": 4866
+      },
+      "methods": {
+        "ours": {
+          "artifact": "artifacts/office/ours",
+          "beam": 20,
+          "eos": null,
+          "prior_strength": 0.5,
+          "semantic_strength": 0.4,
+          "max_mask": 3,
+          "decoding": "guided_fixed"
+        },
+        "rqvae": {
+          "artifact": "artifacts/office/rqvae",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "tiger": {
+          "artifact": "artifacts/office/tiger",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "onerec": {
+          "artifact": "artifacts/office/onerec",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "crab": {
+          "artifact": "artifacts/office/crab",
+          "beam": 200,
+          "eos": 286,
+          "decoding": "native_fixed",
+          "length_penalty": 0
+        },
+        "ghost": {
+          "artifact": "artifacts/office/ghost",
+          "beam": 200,
+          "eos": 262,
+          "decoding": "length_normalized",
+          "length_penalty": 1
+        },
+        "sa2crq": {
+          "artifact": "artifacts/office/sa2crq",
+          "beam": 200,
+          "eos": 256,
+          "decoding": "length_normalized",
+          "length_penalty": 1
+        }
+      },
+      "representations": {
+        "parallel6x16": "ours",
+        "serial3x256": "artifacts/office/representations/serial3x256",
+        "parallel3x256": "artifacts/office/representations/parallel3x256",
+        "serial6x16": "artifacts/office/representations/serial6x16"
+      },
+      "variants": {
+        "serial_full": {
+          "artifact": "artifacts/office/serial_full",
+          "beam": 20,
+          "eos": null,
+          "prior_strength": 0.5,
+          "semantic_strength": 0.4,
+          "max_mask": 3,
+          "decoding": "guided_fixed"
+        }
+      }
+    }
+  },
+  "methods": [
+    "ours",
+    "rqvae",
+    "tiger",
+    "onerec",
+    "crab",
+    "ghost",
+    "sa2crq"
+  ],
+  "frequency": {
+    "tail": [
+      1,
+      6
+    ],
+    "head_min": 12
+  },
+  "main": {
+    "beam_ours": 20,
+    "beam_baselines": 200,
+    "prior_strength": 0.5,
+    "semantic_strength": 0.4,
+    "max_mask": 3
+  }
+}

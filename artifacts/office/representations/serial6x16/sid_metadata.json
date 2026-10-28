@@ -1,0 +1,79 @@
+{
+  "name": "serial6x16",
+  "mode": "serial",
+  "levels": 6,
+  "size": 16,
+  "nominal_capacity": 16777216,
+  "selected": {
+    "epoch": 2800,
+    "mse": 0.2222864329814911,
+    "quantization_loss": 1.0159754753112793,
+    "unique_sids": 3228,
+    "extra_rate": 0.06678230702515178,
+    "participating_rate": 0.12257877999421798,
+    "largest_group": 8
+  },
+  "best_mse": {
+    "epoch": 2950,
+    "mse": 0.2140166461467743,
+    "quantization_loss": 1.0205214023590088,
+    "unique_sids": 3223,
+    "extra_rate": 0.06822781150621567,
+    "participating_rate": 0.12257877999421798,
+    "largest_group": 9
+  },
+  "best_collision": {
+    "epoch": 1,
+    "mse": 3.521066188812256,
+    "quantization_loss": 0.15195412933826447,
+    "unique_sids": 3278,
+    "extra_rate": 0.052327262214512865,
+    "participating_rate": 0.09655969933506794,
+    "largest_group": 6
+  },
+  "positions": [
+    {
+      "position": 1,
+      "used": 16,
+      "entropy_bits": 3.7507009673897116,
+      "largest_cluster": 573
+    },
+    {
+      "position": 2,
+      "used": 16,
+      "entropy_bits": 3.970383694246129,
+      "largest_cluster": 331
+    },
+    {
+      "position": 3,
+      "used": 16,
+      "entropy_bits": 3.969063693601149,
+      "largest_cluster": 306
+    },
+    {
+      "position": 4,
+      "used": 16,
+      "entropy_bits": 3.945831053375225,
+      "largest_cluster": 362
+    },
+    {
+      "position": 5,
+      "used": 16,
+      "entropy_bits": 3.9776918800999033,
+      "largest_cluster": 296
+    },
+    {
+      "position": 6,
+      "used": 16,
+      "entropy_bits": 3.9018211811719397,
+      "largest_cluster": 293
+    }
+  ],
+  "autoencoder_parameters": 2978144,
+  "codebook_parameters": 9216,
+  "non_sid_fields_unchanged": {
+    "train": 38924,
+    "valid": 4866,
+    "test": 4866
+  }
+}

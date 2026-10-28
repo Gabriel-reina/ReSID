@@ -1,0 +1,4 @@
+# If hosting the complete artifact bundle in Git, install Git LFS first.
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text

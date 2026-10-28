@@ -1,0 +1,640 @@
+{
+  "passed": true,
+  "fresh_replay_cases": [
+    {
+      "dataset": "industrial",
+      "method": "ours",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 0.7727487909999999
+    },
+    {
+      "dataset": "industrial",
+      "method": "rqvae",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 2.6894440000000004
+    },
+    {
+      "dataset": "industrial",
+      "method": "tiger",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 4.199170667000001
+    },
+    {
+      "dataset": "industrial",
+      "method": "onerec",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 2.7888420830000005
+    },
+    {
+      "dataset": "industrial",
+      "method": "crab",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 4.284447125
+    },
+    {
+      "dataset": "industrial",
+      "method": "ghost",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 10.488981208999999
+    },
+    {
+      "dataset": "industrial",
+      "method": "sa2crq",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 4.2486623749999985
+    },
+    {
+      "dataset": "office",
+      "method": "ours",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 0.7189372499999998
+    },
+    {
+      "dataset": "office",
+      "method": "rqvae",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 2.8748261659999983
+    },
+    {
+      "dataset": "office",
+      "method": "tiger",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 4.280880333000006
+    },
+    {
+      "dataset": "office",
+      "method": "onerec",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 2.873593917000001
+    },
+    {
+      "dataset": "office",
+      "method": "crab",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 4.249128333000002
+    },
+    {
+      "dataset": "office",
+      "method": "ghost",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 10.821811208999996
+    },
+    {
+      "dataset": "office",
+      "method": "sa2crq",
+      "queries": 128,
+      "identical_item_lists": true,
+      "different_item_slots": 0,
+      "seconds": 4.9382719169999945
+    }
+  ],
+  "unchanged_v1_inputs_and_inference_kernels": [
+    {
+      "file": "artifacts/office/representations/parallel3x256/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/parallel3x256/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/parallel3x256/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/parallel3x256/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial6x16/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial6x16/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial6x16/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial6x16/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial3x256/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial3x256/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial3x256/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/representations/serial3x256/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/parent-maps.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/split-details.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/crab/residuals.npy",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/tiger/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/tiger/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/tiger/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/tiger/tokenizer_config.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/tiger/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/tiger/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/tiger/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/sa2crq/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/sa2crq/sa2crq-head-stage.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/sa2crq/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/sa2crq/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/sa2crq/sa2crq-tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/sa2crq/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/sa2crq/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ghost/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ghost/ghost-negative-items.npy",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ghost/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ghost/ghost-codebooks.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ghost/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ghost/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ghost/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ours/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ours/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ours/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ours/text_features.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ours/projection.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ours/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/ours/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/rqvae/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/rqvae/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/rqvae/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/rqvae/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/rqvae/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/onerec/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/onerec/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/onerec/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/onerec/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/onerec/quantizer.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/office/onerec/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/parallel3x256/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/parallel3x256/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/parallel3x256/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/parallel3x256/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial6x16/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial6x16/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial6x16/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial6x16/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial3x256/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial3x256/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial3x256/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/representations/serial3x256/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/parent-maps.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/split-details.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/crab/residuals.npy",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/tiger/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/tiger/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/tiger/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/tiger/tokenizer_config.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/tiger/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/tiger/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/tiger/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/sa2crq/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/sa2crq/sa2crq-head-stage.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/sa2crq/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/sa2crq/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/sa2crq/sa2crq-tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/sa2crq/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/sa2crq/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ghost/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ghost/ghost-negative-items.npy",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ghost/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ghost/ghost-codebooks.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ghost/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ghost/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ghost/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ours/tokenizer.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ours/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ours/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ours/text_features.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ours/projection.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ours/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/ours/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/rqvae/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/rqvae/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/rqvae/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/rqvae/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/rqvae/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/onerec/model.pt",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/onerec/reference_metrics.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/onerec/codes.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/onerec/reference_items.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/onerec/quantizer.npz",
+      "identical_to_v1": true
+    },
+    {
+      "file": "artifacts/industrial/onerec/sid_metadata.json",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/office/valid.csv",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/office/test.csv",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/office/train.csv",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/office/item_embeddings.npy",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/industrial/valid.csv",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/industrial/test.csv",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/industrial/train.csv",
+      "identical_to_v1": true
+    },
+    {
+      "file": "data/industrial/item_embeddings.npy",
+      "identical_to_v1": true
+    },
+    {
+      "file": "sid_retrieval/model.py",
+      "identical_to_v1": true
+    },
+    {
+      "file": "sid_retrieval/decoding.py",
+      "identical_to_v1": true
+    },
+    {
+      "file": "sid_retrieval/data.py",
+      "identical_to_v1": true
+    },
+    {
+      "file": "sid_retrieval/metrics.py",
+      "identical_to_v1": true
+    }
+  ],
+  "scope": "Fresh first-128-query replay for all 14 main cases; complete v1 replay remains valid for byte-identical inputs and inference kernels. New serial Full is verified separately on its entire TEST split."
+}

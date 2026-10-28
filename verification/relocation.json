@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "loaded_modules_from_new_copy": true,
+  "data_root_is_new_copy": true,
+  "prediction_histories_checked": 2,
+  "identical_predictions": true,
+  "immutable_manifest_verified": true,
+  "no_external_project_imports": true
+}

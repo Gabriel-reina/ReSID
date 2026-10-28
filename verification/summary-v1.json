@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "main_cases": 14,
+  "main_queries_regenerated": 65793,
+  "identical_main_item_lists": true,
+  "reference_metrics_tolerance": 1e-10,
+  "office_ablation_cases": 6,
+  "office_ablation_item_lists_identical": true,
+  "industrial_shared_diagnostic_values": 1890,
+  "unit_tests_passed": 20,
+  "original_code_and_checkpoint_files_unchanged": 185,
+  "frozen_snapshot_files_verified": 285,
+  "full_training_rerun": false,
+  "inference_device": "CPU FP32"
+}

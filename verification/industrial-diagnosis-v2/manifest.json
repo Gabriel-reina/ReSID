@@ -1,0 +1,22 @@
+{
+  "dataset": "industrial",
+  "seed": 42,
+  "beam": 20,
+  "source_checkpoint_epoch": 12,
+  "source_checkpoint": "artifacts/industrial/ours/model.pt",
+  "SID": "original parallel6x16",
+  "generation": "Target-free raw ordinary GR. No priors or semantic guidance. First batch per split compared exactly to unchanged beam_search.",
+  "frequency": "TRAIN next-target only: head>=12, tail1..6, middle7..11, zero separately",
+  "fixed_pattern_selection": "VALID tail uncapped coverage, tie smaller mean pool then lower integer pattern. Freeze before TEST.",
+  "controls": "Exact misses only; equal-size random expansion preserving exact pool. 20 cross-user bijections excluding same user; expected uniform subsampling to per-query minimum budget.",
+  "equal_budget_patterns": "For every query/m, use minimum candidate count over all same-m patterns. Coverage expectation = hit * shared_budget / pattern_pool_size.",
+  "input_hashes": {
+    "artifacts/industrial/ours/model.pt": "505c1eeca0954eff32fcd3199a15cb0f0e9b5f667c6448ab9ffdf66263eaf726",
+    "artifacts/industrial/ours/codes.json": "9f0a1adfaf9519af78406e9688f18f703089a68b9d2a33fb1800fef4ddc602cc",
+    "data/industrial/item_embeddings.npy": "91a1c875e4b009f3a07b5febf00c2ef62a3813a55cfe873b825e18e32df1dd0b",
+    "data/industrial/train.csv": "ba97087d9834e5dc38e94166f6092f0dd9f3fd412066d2047bcb2e49d1d3ddb3",
+    "data/industrial/valid.csv": "76f8f230329991663694916f4ce682274e474dedf2386da45411cbb04eb87271",
+    "data/industrial/test.csv": "e9036970c56057f4e1446c083c34ccdf400985b9d7d16cedebcd1d8e8d536140",
+    "sid_retrieval/analysis.py": "e7d08ec95bbdde495eb647c0e69b9fb5e0509b58282065dd00ae330497419c92"
+  }
+}

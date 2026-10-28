@@ -1,0 +1,57 @@
+{
+  "head_threshold_strict_gt": 13,
+  "head_items": 635,
+  "tail_items": 2824,
+  "max_depth": 4,
+  "head_capacities": [
+    64,
+    128,
+    256,
+    256
+  ],
+  "tail_total_capacities": [
+    256,
+    256,
+    256,
+    256
+  ],
+  "tau": 2e-06,
+  "check_prefix_N": 2,
+  "head_epochs": 100,
+  "tail_epochs": 100,
+  "head_anchors_bitwise_frozen": true,
+  "final_stats": {
+    "items": 3459,
+    "unique_sids": 2614,
+    "extra_collision_rate": 0.24429025729979764,
+    "collision_participation_rate": 0.38016767851980343,
+    "max_aliases": 20,
+    "length_histogram": {
+      "4": 638,
+      "2": 2821
+    }
+  },
+  "head_lengths": {
+    "4": 635
+  },
+  "tail_lengths": {
+    "2": 2821,
+    "4": 3
+  },
+  "provenance": "Paper-based local implementation; no official repository located in current search",
+  "adaptations": [
+    "catalogue PCA32 input and compact AE128/64/32",
+    "TRAIN-target frequency split shared with Ghost port",
+    "200 total tokenizer epochs split100 head/100 tail; paper omits phase-specific counts",
+    "operational N=2 threshold from paper Table1 note; generic per-layer entropy-budget schedule not specified",
+    "preserve head assignments from head stage; no alias token appended, retain one-to-many mapping"
+  ],
+  "method": "sa2crq",
+  "seed": 42,
+  "EOS": 256,
+  "PAD": 257,
+  "max_tokens_with_EOS": 5,
+  "features": {
+    "preprocessing": "Frozen catalogue-only PCA leading32 coordinates, renormalized; no semantic user projection or labels. Shared across the two baseline ports."
+  }
+}

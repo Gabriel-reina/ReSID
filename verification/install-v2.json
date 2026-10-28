@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "installed_code_is_separate": true,
+  "third_party_license_packaged": true,
+  "prediction_shape": [
+    1,
+    200
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "method": "pure RQ-VAE, no collision suffix",
+  "first3codes_exactly_equal": true,
+  "original_tokenizer": {
+    "method": "tiger",
+    "seed": 42,
+    "epochs": 20000,
+    "batch": 1024,
+    "config": {
+      "in_dim": 2560,
+      "num_emb_list": [
+        256,
+        256,
+        256
+      ],
+      "e_dim": 32,
+      "layers": [
+        512,
+        256,
+        128
+      ],
+      "beta": 0.25,
+      "kmeans_init": true,
+      "kmeans_iters": 100,
+      "sk_epsilons": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sk_iters": 50
+    },
+    "selection": "lowest catalogue reconstruction MSE evaluated every500 epochs; extra4th token resolves collisions",
+    "new_models": true,
+    "Adagrad_initial_accumulator_if_TIGER": 0.1,
+    "runtime": "CPU2threads; bounded constrained-kmeans n_jobs1; removed unused wandb logging imports only"
+  },
+  "construction": "reuse exact three learned RQ-VAE256 semantic codes; remove ordinal fourth token; preserve aliases",
+  "dataset": "industrial",
+  "items": 3686,
+  "unique_sids": 3450,
+  "extra_collision_rate": 0.06402604449267499,
+  "collision_participation_rate": 0.1068909386869235,
+  "max_aliases": 20,
+  "length_histogram": {
+    "3": 3686
+  },
+  "EOS": 256
+}

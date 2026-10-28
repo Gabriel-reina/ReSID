@@ -1,0 +1,21 @@
+{
+  "method": "OneRec-style balanced RQ-Kmeans",
+  "layers": 3,
+  "codebook": 256,
+  "max_iterations": 100,
+  "assignment": "Original OneRec Algorithm1 sequential centroids choose nearest still-unallocated items; fixed seed42 random initialization; exact floor/ceil floor/ceil capacities for non-divisible Office catalogue/256; no PCA/autoencoder. Layer residual uses selected centroid.",
+  "adaptations": "shared normalized Qwen2560 content features instead of original collaboratively aligned multimodal features; codebook256 for this small catalogue; aliases retained, no arbitrary added collision suffix",
+  "caps_min_max": [
+    13,
+    14
+  ],
+  "items": 3459,
+  "unique_sids": 3081,
+  "extra_collision_rate": 0.10928013876843018,
+  "collision_participation_rate": 0.19658860942468923,
+  "max_aliases": 10,
+  "length_histogram": {
+    "3": 3459
+  },
+  "EOS": 256
+}

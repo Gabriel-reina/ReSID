@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "release": "1.1.0",
+  "inherited_v1_complete_main": {
+    "cases": 14,
+    "queries": 65793,
+    "identical_item_lists": true,
+    "input_and_kernel_hashes_rechecked": true
+  },
+  "fresh_main_replay": {
+    "cases": 14,
+    "queries_per_case": 128,
+    "identical_item_lists": true
+  },
+  "fresh_serial_full": {
+    "dataset": "office",
+    "queries": 4866,
+    "identical_item_lists": true,
+    "metrics_match": true
+  },
+  "fresh_office_sensitivity": {
+    "split": "VALID",
+    "cases": 13,
+    "queries_per_case": 4866,
+    "metrics_and_coverage_match": true
+  },
+  "unit_tests_passed": 28,
+  "full_training_rerun": false,
+  "tiny_training_entry_point_verified": true,
+  "inference_device": "CPU FP32"
+}
